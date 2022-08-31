@@ -4,6 +4,8 @@ To get up and running quickly, the [TestDrive VMs](https://octopus.com/testdrive
 
 Video walkthrough
 
+![Video Thumbnail](https://embed-ssl.wistia.com/deliveries/b9a2fdb92cfc30eabc4dd62f75260a136110d753.webp?image_crop_resized=1280x720)
+
 [![current](https://i.octopus.com/guides/badges/php-app-git-jenkins-builtin-nginx.svg)](https://octopus.com/blog/devops-documentation)
 
 ## [](https://octopus.com/docs/guides/deploy-php-app/to-nginx/using-octopus-onprem-jenkins-builtin#introduction)Introduction

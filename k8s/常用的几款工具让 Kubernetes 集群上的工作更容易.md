@@ -1,4 +1,4 @@
-之前写过一篇 [介绍了工具加速[[云原生]] Java 开发](https://mp.weixin.qq.com/s/CXJ1zUoktdI3c3CHVju0gA)。
+之前写过一篇 [介绍了工具加速[[k8s/云原生]] Java 开发](https://mp.weixin.qq.com/s/CXJ1zUoktdI3c3CHVju0gA)。
 
 其实日常工作中在集群上的操作也非常多，今天就来介绍我所使用的工具。
 
