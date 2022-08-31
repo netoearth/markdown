@@ -1,0 +1,142 @@
+## Harbor 的安装与配置
+
+Harbor: 企业级镜像仓库
+
+#### 官方地址
+
+```
+https://github.com/goharbor/harbor
+```
+
+#### 1\. 安装 docker 17.03.0-ce+ and docker-compose 1.18.0+[#](https://learnku.com/articles/29884#f0678c)
+
+[docker-ce-yum-install](https://github.com/duiying/ops/blob/master/docker-ce-yum-install)
+
+#### 2\. 安装 Harbor
+
+安装文档
+
+```
+https://github.com/goharbor/harbor/blob/master/docs/installation_guide.md
+```
+
+下载
+
+```
+# 进入下载目录
+cd /usr/src/
+
+# 下载离线安装包
+wget https://storage.googleapis.com/harbor-releases/release-1.8.0/harbor-offline-installer-v1.8.0.tgz
+
+# 解压安装包
+tar xvf harbor-offline-installer-v1.8.0.tgz
+
+# 进入Harbor目录
+cd harbor
+```
+
+配置 Harbor
+
+```
+vim harbor.yml
+
+# 配置如下
+hostname: harbor.phpdev.com
+port: 9010
+harbor_admin_password: phpdev-pass
+# The location to store harbor's data
+data_volume: /usr/src/harbor/data
+# The directory to store store log
+location: /var/log/harbor
+```
+
+安装
+
+配置 hosts, 浏览器访问 [http://harbor.phpdev.com:9010](http://harbor.phpdev.com:9010/)
+
+启动 / 停止
+
+```
+docker-compose start/stop
+```
+
+#### 3\. 使用[#](https://learnku.com/articles/29884#e1ce71)
+
+```
+1. 创建 wyx 用户
+2. 创建 test 项目
+3. 为 test 项目添加 wyx 用户, 角色是项目管理员
+```
+
+[![Harbor](https://cdn.learnku.com/uploads/images/201906/16/37369/PIL4strjMP.jpeg!large)](https://cdn.learnku.com/uploads/images/201906/16/37369/PIL4strjMP.jpeg!large)
+
+登录报错
+
+```
+[root@localhost harbor]# docker login harbor.phpdev.com:9010
+Username: wyx
+Password: 
+Error response from daemon: Get https://harbor.phpdev.com:9010/v2/: dial tcp 192.168.246.128:9010: connect: connection refused
+```
+
+这是由于默认 docker registry 使用的是 https, 而目前的 Harbor 使用的是 http, 解决方法如下
+
+```
+# 查找 docker.service 所在目录
+[root@localhost harbor]# find / -name docker.service -type f
+/usr/lib/systemd/system/docker.service
+# 增加 --insecure-registry harbor.phpdev.com:9010
+[root@localhost harbor]# vim /usr/lib/systemd/system/docker.service
+ExecStart=/usr/bin/dockerd --insecure-registry harbor.phpdev.com:9010 -H fd:// --containerd=/run/containerd/containerd.sock
+# 重新加载配置、重启docker
+systemctl daemon-reload
+systemctl restart docker
+```
+
+再次登录
+
+```
+[root@localhost harbor]# docker login harbor.phpdev.com:9010
+Username: wyx
+Password: 
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+```
+
+#### Harbor 推送拉取镜像[#](https://learnku.com/articles/29884#489d5e)
+
+推送
+
+```
+# 拉取一个测试镜像
+docker pull daocloud.io/daocloud/phpmyadmin
+[root@localhost harbor]# docker images
+REPOSITORY                        TAG                        IMAGE ID            CREATED             SIZE
+daocloud.io/daocloud/phpmyadmin   latest                     626319eaebed        5 days ago          421MB
+
+# 标记本地镜像, 将其归入某一仓库(harbor.phpdev.com)
+docker tag daocloud.io/daocloud/phpmyadmin:latest harbor.phpdev.com:9010/test/phpmyadmin:v1
+[root@localhost harbor]# docker images
+REPOSITORY                               TAG                        IMAGE ID            CREATED             SIZE
+daocloud.io/daocloud/phpmyadmin          latest                     626319eaebed        5 days ago          421MB
+harbor.phpdev.com:9010/test/phpmyadmin   v1                         626319eaebed        5 days ago          421MB
+
+# 将本地镜像推送到镜像仓库(需先登录镜像仓库)
+docker push harbor.phpdev.com:9010/test/phpmyadmin:v1
+```
+
+拉取
+
+```
+# 删除原来镜像
+docker rmi daocloud.io/daocloud/phpmyadmin
+docker rmi harbor.phpdev.com:9010/test/phpmyadmin:v1
+# 拉取
+docker pull harbor.phpdev.com:9010/test/phpmyadmin:v1
+```
+
+> 本作品采用[《CC 协议》](https://learnku.com/docs/guide/cc4.0/6589)，转载必须注明作者和本文链接
