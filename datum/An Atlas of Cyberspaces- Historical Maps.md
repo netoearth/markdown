@@ -1,16 +1,4 @@
-Sorry, the Cybergeography Research web pages are no longer being updated. The project ran from 1997-2004, but my research has moved away into other areas (see my [blog](http://cyberbadger.blogspot.com/) for latest). If you have any questions or comments, please email me at: m.dodge (at) manchester.ac.uk. 
 
-Cheers, [Martin Dodge](http://www.cybergeography.org/martin/martin.html), February 2007.
-
-  
-
-##### 
-
-| [Introduction](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/atlas.html) | [Whats New](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/whats_new.html) | [Conceptual](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/conceptual.html) | [Artistic](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/artistic.html) | [Geographic](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/geographic.html) | [Cables & Satellites](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/cables.html) | [Traceroutes](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/routes.html) |  
-| [Census](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/census.html) | [Topology](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/topology.html) | [Info Maps](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/info_maps.html) | [Info Landscapes](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/info_landscapes.html) | [Info Spaces](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/info_spaces.html) | [ISP Maps](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/isp_maps.html) | [Weather Maps](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/weather.html) |  
-| [Wireless](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/wireless.html) | [Web Site Maps](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/web_sites.html) | [Surf Maps](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/surf.html) | [MUDs & Virtual Worlds](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/muds_vw.html) | ![](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/pointer1.gif) [Historical](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/historical.html) |
-
-![](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/title.gif)
 
 ## Historical Maps of Computer Networks
 
@@ -43,13 +31,12 @@ _(Source : "Casting the Net", page 56. See also The Computer Museum's [Timeline]
 ARPANET grew rapidly as more sites are connected. The map above shows the situation in September 1971 and the one below is from October 1980, which includes a packet satellite link UCL in London.  
 _(Sources : "Casting the Net", page 64; CCR, page 93)_
 
-<table><tbody><tr><td><p><a href="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet_april1971_large.gif"><img src="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet_april1971_small.gif" alt="ARPANET logical map August 1971 - click for larger version" height="168" width="250"></a></p></td><td><p><a href="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet_august1971_large.gif"><img src="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet_august1971_small.gif" alt="ARPANET logical map August 1971 - click for larger version" height="168" width="242"></a></p></td></tr><tr><td colspan="2"><p><img src="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/new.gif" height="19" width="28"> Logical network maps charting the growing of sites connecting to ARPANET in the early 1970s. <img src="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/new.gif" height="19" width="28"></p></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td><p><a href="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet_sept1973_large.gif"><img src="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet_sept1973_small.gif" height="183" width="250"></a></p></td><td><p><a href="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet_june1974_large.gif"><img src="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet_june1974_small.gif" height="183" width="227"></a></p></td></tr><tr><td colspan="2"></td></tr></tbody></table>
+<table><tbody><tr><td><p><a href="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet_april1971_large.gif"><img src="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet_april1971_small.gif" alt="ARPANET logical map August 1971 - click for larger version" height="168" width="250"></a></p></td><td><p><a href="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet_august1971_large.gif"><img src="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet_august1971_small.gif" alt="ARPANET logical map August 1971 - click for larger version" height="168" width="242"></a></p></td></tr><tr><td colspan="2"><p><img src="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/new.gif" height="19" width="28"> Logical network maps charting the growing of sites connecting to ARPANET in the early 1970s. <img src="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/new.gif" height="19" width="28"></p></td></tr><tr><td> </td><td> </td></tr><tr><td><p><a href="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet_sept1973_large.gif"><img src="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet_sept1973_small.gif" height="183" width="250"></a></p></td><td><p><a href="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet_june1974_large.gif"><img src="https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet_june1974_small.gif" height="183" width="227"></a></p></td></tr><tr><td colspan="2"></td></tr></tbody></table>
 
 [![al map March 1977 - click for larger version](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet1977_small.gif)](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet1977_large.gif)
 
 The map above shows the topology of ARPANET in March 1977. It was scanned by Larry Press from the [_ARPANET Completion Report_](http://som.csudh.edu/cis/lpress/history/arpamaps/), Bolt, Beranek and Newman, Burlington, MA, January 4, 1978.
 
-  
 [![Geographic map of ARPANET, Oct. 1980 - click for larger version](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet4_small.gif)](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/arpanet4.gif)  
 
 \[For more information on this map see the Map of the Month article ["ARPANET, October 1980"](http://mappa.mundi.net/maps/maps_001/) in Mappa.Mundi Magazine.\]
@@ -103,8 +90,6 @@ These maps show the structure of [JANET](http://www.ja.net/), the UK's academic 
 [![JANET logical map 1992 - click for larger image](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/janet1992_small.gif)](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/janet1992_large.gif)
 
 ![](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/line.jpg)
-
-  
 
 ![](https://personalpages.manchester.ac.uk/staff/m.dodge/cybergeography/atlas/line1.jpg)
 

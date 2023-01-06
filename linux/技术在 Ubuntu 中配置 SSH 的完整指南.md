@@ -1,0 +1,213 @@
+![](https://img.linux.net.cn/data/attachment/album/202210/25/102118u33grazpccrvxwdf.jpg)
+
+> 如今 SSH 已成为了登录远程服务器的默认方式。
+
+SSH 的全称是 “安全的 ShellSecure Shell”，它功能强大、效率高，这个主流的网络协议用于在两个远程终端之间建立连接。让我们不要忘记它名称的“安全”部分，SSH 会加密所有的通信流量，以防止如劫持、窃听等攻击，同时提供不同的身份认证方式和无数个配置选项。
+
+在这份新手指南中，你会学到：
+
+-   SSH 的基本概念
+-   设置 SSH 服务器（在你想要远程登录的系统上）
+-   从客户端（你的电脑）通过 SSH 连接远程服务器
+
+在学习配置过程前，让我们先了解一下 SSH 的全部基础概念。
+
+SSH 协议基于客户端-服务器server-client（CS）架构。“服务器Server”允许“客户端Client”通过通信通道进行连接。该信道是经过加密的，信息交换通过 SSH 公私钥进行管理。
+
+![Image credit: SSH](https://img.linux.net.cn/data/attachment/album/202210/25/102121zsucshrqinghb4zw.png)
+
+_Image credit: SSH_
+
+[OpenSSH](https://www.openssh.com/)\[1\] 是在 Linux、BSD 和 Windows 系统上提供 SSH 功能的最流行的开源工具之一。
+
+想要成功配置 SSH，你需要：
+
+-   在作为服务器的机器上部署 SSH 服务器组件，它由 `openssh-server` 包提供。
+-   在你远程访问服务器的客户端机器上部署 SSH 客户端组件，它由 `openssh-client` 包提供，大多数 Linux 和 BSD 发行版都已经预装好了。
+
+区分服务器和客户端是十分重要的事情。或许你不想要你的 PC 作为 SSH 服务器，除非你有充分理由希望其他人通过 SSH 连接你的系统。
+
+通常来说，你有一个专用的服务器系统。例如，一个 [运行 Ubuntu 的树莓派](https://itsfoss.com/install-ubuntu-server-raspberry-pi/)\[2\]。你可以 [启用树莓派的 SSH 服务](https://itsfoss.com/ssh-into-raspberry/)\[3\]，这样你可以在你 PC 中的终端中，通过 SSH 控制并管理该设备。
+
+有了这些信息，让我们看看如何在 Ubuntu 上设置 SSH 服务器。
+
+设置 SSH 并不复杂，只需要以下几步。
+
+-   一个在服务器端拥有 `sudo` 权限的用户
+-   可以下载所需包的互联网连接
+-   在你的网络中至少有另一个系统。可以是局域网中的另一台电脑，远程服务器或者计算机中托管的虚拟机。
+
+**再次强调，在你想要通过 SSH 远程登录的系统上安装 SSH 服务。**
+
+让我们从打开终端输入一些必要命令开始。
+
+注意，在安装新的包或者软件前，要 [更新你的 Ubuntu 系统](https://itsfoss.com/update-ubuntu/)\[4\]，以确保运行的是最新版本的程序。
+
+```
+sudo apt update && sudo apt upgrade
+```
+
+你要运行 SSH 服务器的包由 OpensSSH 的 `openssh-server` 组件提供：
+
+```
+sudo apt install openssh-server
+```
+
+![](https://img.linux.net.cn/data/attachment/album/202210/25/102122lbaui9ua741m4o76.png)
+
+当你下载并安装完包后，SSH 服务器应该已经运行了，但是为了确保万无一失我们需要检查一下：
+
+```
+service ssh status
+```
+
+你还可以使用 `systemctl` 命令：
+
+```
+sudo systemctl status ssh
+```
+
+你应该会看到这样的结果，其中 `active` 是高亮的。输入 `q` 退出该页面。
+
+![](https://img.linux.net.cn/data/attachment/album/202210/25/102122pllfzy7yy5y227zl.png)
+
+如果你的结果中 SSH 服务没有运行，使用这个命令运行它：
+
+```
+sudo systemctl enable --now ssh
+```
+
+Ubuntu 带有名为 [UFW](https://itsfoss.com/set-up-firewall-gufw/)\[5\]（简单的防火墙Uncomplicated Firewall）的防火墙，这是管理网络规则的 `iptables` 的一个接口。如果启动了防火墙，它可能会阻止你连接服务器。
+
+想要配置 UFW 允许你的接入，你需要运行如下命令：
+
+```
+sudo ufw allow ssh
+```
+
+UFW 的运行状态可以通过运行 `sudo ufw status` 来检查。
+
+现在，我们的 SSH 服务器已经开始运行了，在等待来自客户端的连接。
+
+你本地的 Linux 系统已经安装了 SSH 客户端。如果没有，你可以在 Ubuntu 中使用如下命令安装：
+
+```
+sudo apt install openssh-client
+```
+
+要连接你的 Ubuntu 系统，你需要知道它的 IP 地址，然后使用 `ssh` 命令，就像这样：
+
+```
+ssh username@address
+```
+
+将 **用户名**（`username`）改为你的系统上的实际用户名，并将 **地址**（`address`）改为你服务器的 IP 地址。
+
+如果你 [不知道 IP 地址](https://itsfoss.com/check-ip-address-ubuntu/)\[6\]，可以在服务器的终端输入 `ip a` 查看结果。应该会看到这样的结果：
+
+![Using “ip a” to find the IP address](https://img.linux.net.cn/data/attachment/album/202210/25/102123p5vv2mmn5l94gz50.png)
+
+_Using “ip a” to find the IP address_
+
+可以看到我的 IP 地址是 `192.168.1.111`。让我们使用 `username@address` 格式进行连接。
+
+```
+ssh team@192.168.1.111
+```
+
+这是你第一次连接到该 SSH 服务器，它会请求添加主机。输入 `yes` 并回车即可。
+
+![First time connecting to the server](https://img.linux.net.cn/data/attachment/album/202210/25/102124t9vwtwva6hh9p5hq.png)
+
+_First time connecting to the server_
+
+SSH 会立即告诉你该主机已经被永久添加了，并要求你输入指定用户的密码，输入密码并再次按回车即可。
+
+![Host added, now type in the password](https://img.linux.net.cn/data/attachment/album/202210/25/102124xpro252y5s2j22so.png)
+
+_Host added, now type in the password_
+
+瞧，你远程登录了你的 Ubuntu 系统！
+
+![Connected!](https://img.linux.net.cn/data/attachment/album/202210/25/102125x3bzyv90j333byx3.png)
+
+_Connected!_
+
+现在，你可以在远程服务器的终端里和寻常一样工作了。
+
+你只需要输入 `exit` 即可关闭连接，它会立马关闭不需要确认。
+
+![Closing the connection with “exit”](https://img.linux.net.cn/data/attachment/album/202210/25/102126oidf7mxexk0bt6bb.png)
+
+_Closing the connection with “exit”_
+
+如果你想要停止 SSH 服务，需要运行该命令：
+
+```
+sudo systemctl stop ssh
+```
+
+该命令会关闭 SSH 服务，直到重启它或者系统重启。想要重启它，输入：
+
+```
+sudo systemctl start ssh
+```
+
+现在，如果你想要禁止 SSH 跟随系统启动，使用该命令：
+
+```
+sudo systemctl disable ssh
+```
+
+该命令不会停止当前的 SSH 会话，只会在启动的时候生效。如果你想要它跟随系统启动，输入：
+
+```
+sudo systemctl enable ssh
+```
+
+从 Linux 到 macOS，大多数 \*nix 系统中都有 `ssh` 工具，但这并不是唯一的选项，这里有几个可以在其他操作系统中使用的客户端：
+
+-   [PuTTY](https://www.putty.org/)\[7\] 是一个自由开源的 Windows 系统上的 SSH 客户端。它功能强大并且简单易用。如果你从 Windows 系统上连接你的 Ubuntu 服务器，PuTTY 是最好的选择。（LCTT 译注：切记从官方网站下载。）
+-   对安卓用户来说，[JuiceSSH](https://juicessh.com/)\[8\] 是十分优秀的工具。如果你在旅途中需要一个移动客户端来连接你的 Ubuntu 系统，我强烈建议你试试 JuiceSSH。它已经出现了将近 10 年，并且可以免费使用。
+-   最后是 [Termius](https://termius.com/)\[9\]，它可用于 Linux、Windows、macOS、iOS 和安卓。它有一个免费版本和几个付费选项。如果你运行大量服务器并进行共享连接的团队合作，那么 Termius 对你来说是一个不错的选择。
+
+在这份指导中，你可以在 Ubuntu 系统中设置 SSH 作为服务器，允许来自你电脑的远程安全的连接，便于你通过命令行开展工作。
+
+此，我推荐以下文章：
+
+-   [Linux SSH 入门教程](https://linuxhandbook.com/ssh-basics/)\[10\]
+-   [利用 SSH 配置文件管理多个 SSH 连接](https://linuxhandbook.com/ssh-config-file/)\[11\]
+-   [向 SSH 服务器添加公钥以进行无密码身份验证](https://linuxhandbook.com/add-ssh-public-key-to-server/)\[12\]
+-   [保护你的 SSH 服务器的 SSH 加固技巧](https://linuxhandbook.com/ssh-hardening-tips/)\[13\]
+
+远程工作快乐！
+
+___
+
+via: [https://itsfoss.com/set-up-ssh-ubuntu/](https://itsfoss.com/set-up-ssh-ubuntu/)
+
+作者：[Chris Patrick Carias Stas](https://itsfoss.com/author/chris/)\[14\] 选题：[lujun9972](https://github.com/lujun9972)\[15\] 译者：[Donkey-Hao](https://github.com/Donkey-Hao)\[16\] 校对：[wxy](https://github.com/wxy)\[17\]
+
+本文由 [LCTT](https://github.com/LCTT/TranslateProject)\[18\] 原创编译，[Linux中国](https://linux.cn/article-15175-1.html?utm_source=rss&utm_medium=rss)\[19\] 荣誉推出
+
+___
+
+\[1\]: https://www.openssh.com/  
+\[2\]: https://itsfoss.com/install-ubuntu-server-raspberry-pi/  
+\[3\]: https://itsfoss.com/ssh-into-raspberry/  
+\[4\]: https://itsfoss.com/update-ubuntu/  
+\[5\]: https://itsfoss.com/set-up-firewall-gufw/  
+\[6\]: https://itsfoss.com/check-ip-address-ubuntu/  
+\[7\]: https://www.putty.org/  
+\[8\]: https://juicessh.com/  
+\[9\]: https://termius.com/  
+\[10\]: https://linuxhandbook.com/ssh-basics/  
+\[11\]: https://linuxhandbook.com/ssh-config-file/  
+\[12\]: https://linuxhandbook.com/add-ssh-public-key-to-server/  
+\[13\]: https://linuxhandbook.com/ssh-hardening-tips/  
+\[14\]: https://itsfoss.com/author/chris/  
+\[15\]: https://github.com/lujun9972  
+\[16\]: https://github.com/Donkey-Hao  
+\[17\]: https://github.com/wxy  
+\[18\]: https://github.com/LCTT/TranslateProject  
+\[19\]: https://linux.cn/article-15175-1.html?utm\_source=rss&utm\_medium=rss

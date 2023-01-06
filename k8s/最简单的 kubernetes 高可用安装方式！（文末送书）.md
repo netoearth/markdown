@@ -163,7 +163,7 @@ $ sealos config -t kubeadm >>  kubeadm-config.yaml.tmpl
 
 然后修改 `kubeadm-config.yaml.tmpl` 即可，将 `sealyun.com` 添加到配置中：
 
-![图片](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/qFG6mghhA4Y7E6hCdqibvy9RF0kuibFY4ojaeJ0WqC2tK6uuDgW7VjhHthVhUCdYreMIFyOtS98FQvF1j0llVTJw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
 
 **注意：****其它部分不用修改，sealos 会自动填充模板里面的内容。**
 
@@ -304,7 +304,7 @@ sealos 实现原理
 
 通过这样的方式实现每个 node 上通过本地内核负载均衡访问 masters：
 
-![图片](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/qFG6mghhA4Y7E6hCdqibvy9RF0kuibFY4oLp98x5iawupgRhyZn1yTClTovicYwsbZqxDAuL7UEia6jLIx154bRJuZw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
 
 在 node 上起了一个 `lvscare` 的 static pod 去守护这个 ipvs，一旦 apiserver 不可访问了，会自动清理掉所有 node 上对应的 ipvs 规则， master 恢复正常时添加回来。
 
@@ -342,8 +342,6 @@ if len(locallb.LVScare.Masters) != 0 {                locall
 
 kubeadm 配置文件：
 
-![图片](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)
-
 在 `master0`（假设 vip 地址为 10.103.97.100）上执行以下命令：
 
 ```
@@ -370,7 +368,7 @@ $ echo "10.103.97.1 apiserver.cluster.local" >> /etc/hosts   # 需要�
 
 4离线包结构分析
 
-![图片](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)  
+  
 
   
 
@@ -403,8 +401,6 @@ $ echo "10.103.97.1 apiserver.cluster.local" >> /etc/hosts   # 需要�
 
 如果大家想购买其他云计算领域相关书籍，可以点击[该链接](http://mp.weixin.qq.com/s?__biz=MzU1MzY4NzQ1OA==&mid=2247484412&idx=1&sn=ffb2c2b5a35ad7ed24f2b0ec34f2c9ca&chksm=fbee4331cc99ca27dc4ab8e0df89bf8c1270f5fde4f76959013c25233d6e13e83bae443c274f&scene=21#wechat_redirect)查看优惠策略。
 
-![图片](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)
-
 **你可能错过的精彩内容（每日更新）**
 
 ⊙[高颜值 K8S Dashboard - K8Dash](http://mp.weixin.qq.com/s?__biz=MzU1MzY4NzQ1OA==&mid=2247484372&idx=1&sn=c40f34b87ad6d4429b0bb586d0630d82&chksm=fbee4319cc99ca0f7cd4d2a4b9129f868a230ad2192a40c821c43dfdf897df0dce9e261c4f43&scene=21#wechat_redirect)[](http://mp.weixin.qq.com/s?__biz=MzU1MzY4NzQ1OA==&mid=2247484353&idx=1&sn=409d9ec6842a7c46cc5db3d9a3f04077&chksm=fbee430ccc99ca1a8f844689b921a00fce2a6bf19393976b863c49c67d2a3b4e9529b459b33a&scene=21#wechat_redirect)
@@ -415,21 +411,11 @@ $ echo "10.103.97.1 apiserver.cluster.local" >> /etc/hosts   # 需要�
 
 ⊙[kustomize 颤抖吧helm!](http://mp.weixin.qq.com/s?__biz=MzU1MzY4NzQ1OA==&mid=2247484346&idx=1&sn=ada0214e9bfd26ba657b6c0df2d6c7eb&chksm=fbee4377cc99ca616d16f997e1aa4e6b58a576ff1b60d43406df37af350bea23769df2c61e44&scene=21#wechat_redirect)[](http://mp.weixin.qq.com/s?__biz=MzU1MzY4NzQ1OA==&mid=2247484331&idx=1&sn=4479d5d0211986abb3091e031a12b0ae&chksm=fbee4366cc99ca706147a739f10df4f7b8d2917a36fc1b2945ddab7ae8ba6369b4303af90827&scene=21#wechat_redirect)
 
-![图片](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)
-
 **云原生是一种信仰 🤘**
-
-![图片](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)
 
 **扫码关注公众号**
 
 **回复 「电子书」下载 Kubernetes 指南**
-
-![图片](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)
-
-![图片](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)
-
-![图片](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)
 
 点击 "阅读原文" 获取**该项目离线包资源！**
 
