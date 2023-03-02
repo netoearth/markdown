@@ -1,26 +1,4 @@
-Table of Contents
 
--   [The kubectl Logs Command](https://sematext.com/blog/tail-kubernetes-logs/#the-kubectl-logs-command)
--   [Tail Cluster Logs](https://sematext.com/blog/tail-kubernetes-logs/#tail-cluster-logs)
--   [Events](https://sematext.com/blog/tail-kubernetes-logs/#events)
--   [Tail Container Logs](https://sematext.com/blog/tail-kubernetes-logs/#tail-container-logs)
--   [Default Logs](https://sematext.com/blog/tail-kubernetes-logs/#default-logs)
--   [Specific Container Logs](https://sematext.com/blog/tail-kubernetes-logs/#specific-container-logs)
--   [All Containers](https://sematext.com/blog/tail-kubernetes-logs/#all-containers)
--   [Tail Logs from Pods](https://sematext.com/blog/tail-kubernetes-logs/#tail-logs-from-pods)
--   [Limit the Number of Lines](https://sematext.com/blog/tail-kubernetes-logs/#limit-the-number-of-lines)
--   [See the Live Logs or Follow](https://sematext.com/blog/tail-kubernetes-logs/#see-the-live-logs-or-follow)
--   [Select Pods with Labels](https://sematext.com/blog/tail-kubernetes-logs/#select-pods-with-labels)
--   [Timestamp Option-Based Log](https://sematext.com/blog/tail-kubernetes-logs/#timestamp-option-based-log)
--   [Multiple Pods](https://sematext.com/blog/tail-kubernetes-logs/#multiple-pods)
--   [Previous Container Logs](https://sematext.com/blog/tail-kubernetes-logs/#previous-container-logs)
--   [View Logs Since](https://sematext.com/blog/tail-kubernetes-logs/#view-logs-since)
--   [Pod Events](https://sematext.com/blog/tail-kubernetes-logs/#pod-events)
--   [Tail Logs from Nodes](https://sematext.com/blog/tail-kubernetes-logs/#tail-logs-from-nodes)
--   [Logs](https://sematext.com/blog/tail-kubernetes-logs/#logs)
--   [Events](https://sematext.com/blog/tail-kubernetes-logs/#events)
--   [See Deployment Logs](https://sematext.com/blog/tail-kubernetes-logs/#see-deployment-logs)
--   [How to Tail Kubectl Logs with Sematext](https://sematext.com/blog/tail-kubernetes-logs/#how-to-tail-kubectl-logs-with-sematext)
 
 Logs are a critical aspect of any production workload, as they give you insight into what is happening in your system and tell you which components may be having issues. The traditional method of looking at logs involves basic Linux commands like tail, less, or sometimes cat. But in a modern system with containerized workloads, it can be a bit tricky to tail the logs of all the different components of application, cluster, and worker nodes, especially when you have to manage these containers in large numbers. Container orchestrators, such as Kubernetes, come into play when you have to manage multiple containers in multiple hosts in your environment.
 

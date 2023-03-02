@@ -1,0 +1,19 @@
+每次使用手动升级集群总是很难受，重复地机械地搬砖是没有意义的。因此，我尝试着将升级过程脚本化。
+
+在分享我的脚本之前，我先说一下我的集群情况：
+
+-   3个master节点+3个worker节点
+-   每个节点都是基于同一样的vm template创建的，均使用CentOS。
+-   每个节点均使用 `ssh key pair` 登录
+
+## [](https://www.realks.com/2020/11/21/one-key-upgrade-k8s-cluster/#%E6%9B%B4%E6%96%B0master%E8%8A%82%E7%82%B9 "更新master节点")更新master节点
+
+<table><tbody><tr><td><pre><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br></pre></td><td><pre><span><span>#!/bin/bash -e</span></span><br><span></span><br><span>is_first=<span>true</span></span><br><span><span>for</span> ip <span>in</span> $(kubectl get nodes --no-headers=<span>true</span> -o wide | grep master | awk <span>'{print $6}'</span>);  </span><br><span><span>do</span></span><br><span>  node_name=$(kubectl get nodes --no-headers=<span>true</span> -o wide | grep <span>${ip}</span> | awk <span>'{print $1}'</span>)</span><br><span>  kubectl drain <span>${node_name}</span> --ignore-daemonsets</span><br><span>  ssh -i <span>"ssh/<span>${node_name}</span>"</span> root@<span>$ip</span> <span>'yum update -y'</span></span><br><span>  <span>if</span> <span>${is_first}</span>;</span><br><span>  <span>then</span></span><br><span>    ssh -i <span>"ssh/<span>${node_name}</span>"</span> root@<span>$ip</span> &lt;&lt;<span>'ENDSSH'</span></span><br><span>      kubeadm upgrade plan</span><br><span>      kubeadm upgrade apply v1.19.4 -y</span><br><span>ENDSSH</span><br><span>    is_first=<span>false</span></span><br><span>  <span>else</span></span><br><span>     ssh -i <span>"ssh/<span>${node_name}</span>"</span> root@<span>$ip</span> <span>'kubeadm upgrade node'</span></span><br><span>  <span>fi</span></span><br><span>  ssh -i <span>"ssh/<span>${node_name}</span>"</span> root@<span>$ip</span> &lt;&lt;-<span>ENDSSH</span></span><br><span><span>    systemctl daemon-reload</span></span><br><span><span>    systemctl restart kubelet</span></span><br><span><span>ENDSSH</span></span><br><span>  kubectl uncordon <span>${node_name}</span></span><br><span><span>done</span></span><br></pre></td></tr></tbody></table>
+
+## [](https://www.realks.com/2020/11/21/one-key-upgrade-k8s-cluster/#%E6%9B%B4%E6%96%B0worker%E8%8A%82%E7%82%B9 "更新worker节点")更新worker节点
+
+<table><tbody><tr><td><pre><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></pre></td><td><pre><span><span>#!/bin/bash -e</span></span><br><span></span><br><span><span>for</span> ip <span>in</span> $(kubectl get nodes --no-headers=<span>true</span> -o wide | grep -v master | awk <span>'{print $6}'</span>);  </span><br><span><span>do</span></span><br><span>  node_name=$(kubectl get nodes --no-headers=<span>true</span> -o wide | grep <span>${ip}</span> | awk <span>'{print $1}'</span>)</span><br><span>  kubectl drain <span>${node_name}</span> --ignore-daemonsets --delete-local-data --force</span><br><span>  ssh -i <span>"ssh/<span>${node_name}</span>"</span> root@<span>$ip</span>  &lt;&lt;<span>'ENDSSH'</span> </span><br><span>yum update -y</span><br><span>    kubeadm upgrade node</span><br><span>    systemctl daemon-reload</span><br><span>    systemctl restart kubelet</span><br><span>ENDSSH</span><br><span>  kubectl uncordon <span>${node_name}</span></span><br><span><span>done</span></span><br></pre></td></tr></tbody></table>
+
+## [](https://www.realks.com/2020/11/21/one-key-upgrade-k8s-cluster/#Q-amp-A "Q & A")Q & A
+
+为什么不用Ansible？ 因为没有使用过，以及这个逻辑很简单。

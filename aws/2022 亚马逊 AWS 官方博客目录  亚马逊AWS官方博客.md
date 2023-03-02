@@ -1,0 +1,459 @@
+ 
+
+## 2022 亚马逊 AWS 官方博客目录
+
+## **一月**
+
+-   大咖专栏 | Security, Identity, & Compliance  | [在多账户场景下将 Amazon WAF 安全自动化解决方案与 Amazon Firewall Manager 结合使用](https://aws.amazon.com/cn/blogs/china/combine-amazon-waf-security-automation-solution-with-amazon-firewall-manager-in-multi-account-scenarios/) Jan.3
+-   大咖专栏 | Networking & Content Delivery | [通过 Amazon CloudFront 实时日志快速构建自定义的 CDN 监控](https://aws.amazon.com/cn/blogs/china/quickly-build-custom-cdn-monitoring-through-amazon-cloudfront-real-time-log/) Jan.5
+-   大咖专栏 | Containers | [使用Kubeadm在亚马逊云科技国内区域自建Kubernetes集群 (一) 自建Kubernetes集群和挂载持久化存储](https://aws.amazon.com/cn/blogs/china/use-kubeadm-to-build-a-kubernetes-cluster-in-the-amazon-cloud-technology-domestic-region-part-one/) Jan.11
+-   全球精选 | Database | [亚马逊云科技连续七年被评为《2021 Gartner Magic Quadrant for Cloud Database Management System》—— 云数据库魔力象限领导者](https://aws.amazon.com/cn/blogs/china/2021-gartner-magic-quadrant-for-cloud-database-management-system-cloud-database-magic/) Jan.12
+-   大咖专栏 | Database |  [构建 ElastiCache for Redis 慢日志可视化平台](https://aws.amazon.com/cn/blogs/china/build-elasticache-for-redis-slow-log-visualization-platform/) Jan.13
+-   大咖专栏 | re:invent | [Karpenter : 新一代 Kubernetes auto scaling 工具](https://aws.amazon.com/cn/blogs/china/karpenter-new-generation-kubernetes-auto-scaling-tools/) Jan.13
+-   大咖专栏 |  [基于 Amazon Lambda 的无服务器视频转码方案](https://aws.amazon.com/cn/blogs/china/serverless-video-transcoding-solution-based-on-amazon-lambda/) Jan.13
+-   大咖专栏 | Artificial Intelligence | [使用 Amazon Personalize 的用户细分功能来提高广告投放效果](https://aws.amazon.com/cn/blogs/china/use-amazon-personalize-s-user-segmentation-to-improve-advertising-performance/) Jan.13
+-   大咖专栏 |  [基于云原生构建的 HPC 平台演示](https://aws.amazon.com/cn/blogs/china/quickly-build-a-cloud-native-hpc-platform/) Jan.14
+-   全球精选 | Enterprise Strategy | [加快企业转型和创新的 5 个步骤](https://aws.amazon.com/cn/blogs/china/5-steps-to-accelerate-transformation-and-innovation-in-your-organization/) Jan.17
+-   大咖专栏 | Analytics | [通过使用 Amazon Graviton2 提升 EMR 的性价比](https://aws.amazon.com/cn/blogs/china/improve-the-cost-effectiveness-of-emr-by-using-amazon-graviton2/) Jan.20
+-   大咖专栏 | Analytics | [Amazon EC2 Spot 实例在AWS EMR 集群中的成本优化应用实践](https://aws.amazon.com/cn/blogs/china/cost-optimization-application-practice-of-amazon-ec2-spot-instance-in-aws-emr-cluster/) Jan.21
+-   全球精选 | Database | [Amazon DynamoDB 的十年之约](https://aws.amazon.com/cn/blogs/china/ten-year-anniversary-of-amazon-dynamodb/) Jan.21
+-   大咖专栏 | Serverless | [手把手教程|构建无服务器通用文本识别功能](https://aws.amazon.com/cn/blogs/china/a-step-by-step-tutorial-to-build-a-serverless-universal-text-recognition-function/) Jan.24
+-   大咖专栏 | Artificial Intelligence | [通过亚马逊云科技Marketplace中合作伙伴（Zenlayer）的产品来加速Amazon S3的访问](https://aws.amazon.com/cn/blogs/china/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace/) Jan.24
+-   全球精选 | Analytics | [将 Amazon DynamoDB 数据流式传输到集中式数据湖](https://aws.amazon.com/cn/blogs/china/stream-amazon-dynamodb-data-to-a-centralized-data-lake/) Jan.24
+-   大咖专栏 | Industries | [Amazon GameTech 架构最佳实践系列 —— MOBA/FPS架构篇](https://aws.amazon.com/cn/blogs/china/amazon-gametech-architecture-best-practice-series-moba-fps-architecture-articles/) Jan.24
+-   大咖专栏 | Analytics | [快速搭建 AWS Glue ETL 开发环境](https://aws.amazon.com/cn/blogs/china/quick-build-amazon-glue-etl-development-environment/) Jan.24
+-   大咖专栏 | Database | [在 Amazon RDS for MySQL 和 Amazon Aurora MySQL 上使用 TempTable 存储引擎](https://aws.amazon.com/cn/blogs/china/use-the-temptable-storage-engine-on-amazon-rds-for-mysql-and-amazon-aurora-mysql/) Jan.24
+-   大咖专栏 | Containers | [使用 Copilot 部署你的应用](https://aws.amazon.com/cn/blogs/china/deploy-your-app-with-copilot/) Jan.27
+-   大咖专栏 | Industries | [Amazon GameTech 架构最佳实践系列 —— MOBA/FPS数据分析篇](https://aws.amazon.com/cn/blogs/china/amazongametech-architecture-best-practice-series-moba-fps-data-analysis/) Jan.27
+-   大咖专栏 | Industries | [Amazon GameTech架构最佳实践系列 —— MOBA/FPS网络加速篇](https://aws.amazon.com/cn/blogs/china/amazon-gametech-architecture-best-practice-series-moba-fps-network-acceleration/) Jan.27
+-   大咖专栏 | Containers | [使用 App Mesh 路由你的应用](https://aws.amazon.com/cn/blogs/china/route-your-app-using-app-mesh/) Jan.28
+-   大咖专栏 | Containers | [使用 Copilot 和 App Runner 一键建站](https://aws.amazon.com/cn/blogs/china/use-copilot-and-app-runner-to-build-a-website-with-one-click/) Jan.28
+
+## **二月**
+
+-   大咖专栏 | Containers | [通过 OverProvisioning 提高EKS弹性伸缩效率](https://aws.amazon.com/cn/blogs/china/improve-eks-elastic-scaling-efficiency-through-overprovisioning/) Feb.7
+-   大咖专栏 | End User Computing | [适部署用于 WorkSpaces 的 LinOTP 多重身份验证](https://aws.amazon.com/cn/blogs/china/deploy-linotp-multifactor-authentication-for-workspaces/) Feb.8
+-   大咖专栏 | Application Services | [使用AWS CodeCommit 管理 Amazon SageMaker 代码](https://aws.amazon.com/cn/blogs/china/use-aws-codecommit-admin-amazon-sagemaker-code/) Feb.8
+-   大咖专栏 | End User Computing | [使用 CloudFormation 部署AppStream2.0 队列扩缩策略](https://aws.amazon.com/cn/blogs/china/deploy-appstream2-0-queue-scaling-strategy-with-cloudformation/) Feb.8
+-   大咖专栏 | Architecture | [基于 Amazon EC2 快速部署高可用ClickHouse](https://aws.amazon.com/cn/blogs/china/based-on-amazon-ec2-rapid-deployment-of-high-availability-clickhouse/) Feb.8
+-   大咖专栏 | Infrastructure & Automation | [上云也挺难？我们如何对数十个云账号、数百个子网做好状态监控](https://aws.amazon.com/cn/blogs/china/how-do-we-monitor-the-status-of-dozens-of-cloud-accounts-and-hundreds-of-subnets/) Feb.14
+-   大咖专栏 | Networking & Content Delivery | [Amazon CloudFront 用户域名部署及典型故障排查](https://aws.amazon.com/cn/blogs/china/amazon-cloudfront-user-domain-name-deployment-and-typical-troubleshooting/) Feb.14
+-   全球精选 | Security, Identity, & Compliance  | [Amazon CodeGuru Reviewer 的新增功能 — 用于检测日志注入缺陷的检测器库和安全检测器](https://aws.amazon.com/cn/blogs/china/new-for-amazon-codeguru-reviewer-detector-library-and-security-detectors-for-log-injection-flaws/) Feb.18
+-   最新发布 | [Amazon Elastic 文件系统更新 — 亚毫秒级读取延迟](https://aws.amazon.com/cn/blogs/china/amazon-elastic-file-system-update-sub-millisecond-read-latency/) Feb.18
+-   最新发布 | [全新 — Amazon EC2 C6a 实例由第三代 AMD EPYC 处理器提供支持，适用于计算密集型工作负载](https://aws.amazon.com/cn/blogs/china/new-amazon-ec2-c6a-instances-powered-by-3rd-gen-amd-epyc-processors-for-compute-intensive-workloads/) Feb.18
+-   全球精选 | Storage | [新增功能 – 使用 Amazon S3 批量复制功能复制现有对象](https://aws.amazon.com/cn/blogs/china/new-replicate-existing-objects-with-amazon-s3-batch-replication/) Feb.18
+-   最新发布 | [App Runner 新增功能 – VPC 支持](https://aws.amazon.com/cn/blogs/china/new-for-app-runner-vpc-support/) Feb.18
+-   全球精选 | Storage | [使用新的数字徽章展示您的 AWS 云存储知识和技能！](https://aws.amazon.com/cn/blogs/china/demonstrate-your-aws-cloud-storage-knowledge-and-skills-with-new-digital-badges/) Feb.18
+-   最新发布 | [全新推出 — Amazon EC2 X2iezn 实例由最快的英特尔至强可扩展处理器提供支持，适用于内存密集型工作负载](https://aws.amazon.com/cn/blogs/china/new-amazon-ec2-x2iezn-instances-powered-by-the-fastest-intel-xeon-scalable-cpu-for-memory-intensive-workloads/) Feb.18
+-   最新发布 | [新功能 – 适用于 Amazon Elastic File System（EFS）的复制](https://aws.amazon.com/cn/blogs/china/new-replication-for-amazon-elastic-file-system-efs/) Feb.18
+-   全球精选 | Security, Identity, & Compliance | [Amazon GuardDuty 增强了对 EC2 实例凭证泄露的检测](https://aws.amazon.com/cn/blogs/china/amazon-guardduty-enhances-detection-of-ec2-instance-credential-exfiltration/) Feb.18
+-   最新发布 | [全新的 AWS 控制台主页体验](https://aws.amazon.com/cn/blogs/china/a-new-aws-console-home-experience/) Feb.18
+-   最新发布 | [新增功能 – Amazon EC2 Hpc6a 实例针对高性能计算进行了优化](https://aws.amazon.com/cn/blogs/china/new-amazon-ec2-hpc6a-instance-optimized-for-high-performance-computing/) Feb.18
+-   最新发布 | [现已开放 — AWS 亚太地区（雅加达）区域](https://aws.amazon.com/cn/blogs/china/now-open-aws-asia-pacific-jakarta-region/) Feb.18
+-   全球精选 | Open Source | [新增内容 – FreeRTOS 维护计划延长 10 年](https://aws.amazon.com/cn/blogs/china/new-freertos-extended-maintenance-plan-for-up-to-10-years/) Feb.18
+-   全球精选 | AWS Well-Architected Tool | [新增内容 – AWS Well-Architected Framework 的可持续性支柱](https://aws.amazon.com/cn/blogs/china/sustainability-pillar-well-architected-framework/) Feb.18
+-   最新发布 | [AWS re:Post – 为 AWS 社区重新设计的问答服务](https://aws.amazon.com/cn/blogs/china/aws-repost-a-reimagined-qa-experience-for-the-aws-community/) Feb.18
+-   全球精选 | Launch | [新功能 — 推出 SageMaker 训练编译器](https://aws.amazon.com/cn/blogs/china/new-introducing-sagemaker-training-compiler/) Feb.18
+-   最新发布 | [宣布全面推出 Construct Hub 和 AWS Cloud Development Kit 版本 2](https://aws.amazon.com/cn/blogs/china/announcing-general-availability-of-construct-hub-and-aws-cloud-development-kit-version-2/) Feb.18
+-   全球精选 | AWS re:Invent |  [现已推出预览版 — Amazon SageMaker Studio Lab，一项具有机器学习 (ML) 功能的免费学习和实验服务](https://aws.amazon.com/cn/blogs/china/now-in-preview-amazon-sagemaker-studio-lab-a-free-service-to-learn-and-experiment-with-ml/) Feb.18
+-   全球精选 | AWS re:Invent | [新的 AWS 奖学金计划帮助代表性不足和服务不足的学生为 AI 和 ML 领域的职业做好准备](https://aws.amazon.com/cn/blogs/china/new-aws-scholarship-program-helps-underrepresented-and-underserved-students-prep-for-careers-in-ai-and-ml/) Feb.18
+-   全球精选 | AWS re:Invent | [宣布推出 Amazon SageMaker 推理推荐器](https://aws.amazon.com/cn/blogs/china/announcing-amazon-sagemaker-inference-recommender/) Feb.18
+-   最新发布 | [宣布推出 Amazon SageMaker Ground Truth Plus](https://aws.amazon.com/cn/blogs/china/announcing-amazon-sagemaker-ground-truth-plus/) Feb.18
+-   全球精选 | AWS re:Invent | [新功能 — 使用 Amazon SageMaker Studio 创建和管理 EMR 集群和 Spark 任务](https://aws.amazon.com/cn/blogs/china/new-create-and-manage-emr-clusters-and-spark-jobs-with-amazon-sagemaker-studio/) Feb.18
+-   最新发布 | [使用 Amazon VPC IP 地址管理器进行大规模网络地址管理和审计](https://aws.amazon.com/cn/blogs/china/network-address-management-and-auditing-at-scale-with-amazon-vpc-ip-address-manager/) Feb.18
+-   全球精选 | AWS re:Invent | [使用新的 Amazon EC2 M1 Mac 实例构建并测试适用于 iPhone、iPad、Mac、Apple Watch 和 Apple TV 的应用程序](https://aws.amazon.com/cn/blogs/china/use-amazon-ec2-m1-mac-instances-to-build-test-macos-ios-ipados-tvos-and-watchos-apps/) Feb.18
+-   最新发布 | [新增 – 由 AWS Graviton2 处理器和 NVIDIA T4G Tensor Core GPU 提供支持的 Amazon EC2 G5g 实例](https://aws.amazon.com/cn/blogs/china/new-amazon-ec2-g5g-instances-powered-by-aws-graviton2-processors-and-nvidia-t4g-tensor-core-gpus/) Feb.18
+-   最新发布 | [使用新的 Amazon Inspector 改进并自动化云工作负载的漏洞管理](https://aws.amazon.com/cn/blogs/china/improved-automated-vulnerability-management-for-cloud-workloads-with-a-new-amazon-inspector/) Feb.18
+-   最新发布 | [AWS Compute Optimizer 的新功能 – 用于估计节约机会和绩效风险的资源效率指标](https://aws.amazon.com/cn/blogs/china/new-for-aws-compute-optimizer-resource-efficiency-metrics-to-estimate-savings-opportunities-and-performance-risks/) Feb.18
+-   最新发布 | [新增功能 – Amazon CloudWatch 的真实用户监控](https://aws.amazon.com/cn/blogs/china/cloudwatch-rum/) Feb.18
+-   全球精选 | AWS Well-Architected Tool | [宣布推出 AWS Well-Architected Custom Lenses：利用内部最佳实践扩展架构完善的框架](https://aws.amazon.com/cn/blogs/china/well-architected-custom-lenses-internal-best-practices/) Feb.18
+-   全球精选 | Management Tools | [新增功能 – Amazon CloudWatch Evidently – 实验和功能管理](https://aws.amazon.com/cn/blogs/china/cloudwatch-evidently/) Feb.18
+-   最新发布 | [新增功能 – 由第三代 AMD EPYC 处理器支持的 Amazon EC2 M6a 实例](https://aws.amazon.com/cn/blogs/china/new-amazon-ec2-m6a-instances-powered-by-3rd-gen-amd-epyc-processors/) Feb.18
+-   全球精选 | Internet of Things | [新增功能 – 使用 AWS Systems Manager 安全地管理您的 AWS IoT Greengrass 边缘设备](https://aws.amazon.com/cn/blogs/china/new-securely-manage-your-aws-iot-greengrass-edge-devices-using-aws-systems-manager/) Feb.18
+-   全球精选 | Quantum Technologies | [Amazon Braket Hybrid Jobs 的介绍 – 设置、监控并高效运行混合量子经典工作负载](https://aws.amazon.com/cn/blogs/china/introducing-amazon-braket-hybrid-jobs-set-up-monitor-and-efficiently-run-hybrid-quantum-classical-workloads/) Feb.18
+-   最新发布 | [AWS Compute Optimizer 的新增功能 – 增强型基础设施指标，可将回顾期延长至三个月](https://aws.amazon.com/cn/blogs/china/new-for-aws-compute-optimizer-enhanced-infrastructure-metrics-to-extend-the-look-back-period-to-three-months/) Feb.18
+-   最新发布 | [宣布为 Amazon Elastic Container Registry 推出直通式缓存存储库](https://aws.amazon.com/cn/blogs/china/announcing-pull-through-cache-repositories-for-amazon-elastic-container-registry/) Feb.18
+-   全球精选 | Migration & Transfer Services | [新增功能 – AWS Migration Hub Refactor Spaces 帮助以增量方式重构您的应用程序](https://aws.amazon.com/cn/blogs/china/new-aws-migration-hub-refactor-spaces-helps-to-incrementally-refactor-your-applications/) Feb.18
+-   全球精选 | Storage | [Amazon S3 Glacier 是归档数据的最佳场所 — 引入 S3 Glacier 即时检索存储类](https://aws.amazon.com/cn/blogs/china/amazon-s3-glacier-is-the-best-place-to-archive-your-data-introducing-the-s3-glacier-instant-retrieval-storage-class/) Feb.18
+-   最新发布 | [为 Amazon FSx for Lustre 增强了 Amazon S3 集成功能](https://aws.amazon.com/cn/blogs/china/enhanced-amazon-s3-integration-for-amazon-fsx-for-lustre/) Feb.18
+-   全球精选 | VMware Cloud on AWS | [AWS Backup 新功能 – 支持 VMware 和 VMware Cloud on AWS](https://aws.amazon.com/cn/blogs/china/new-for-aws-backup-support-for-vmware-and-vmware-cloud-on-aws/) Feb.18
+-   最新发布 | [新功能 — 使用 AWS Snowball Edge 进行离线磁带迁移](https://aws.amazon.com/cn/blogs/china/new-offline-tape-migration-using-aws-snowball-edge/) Feb.18
+-   最新发布 | [新增功能 – Amazon FSx for OpenZFS](https://aws.amazon.com/cn/blogs/china/new-amazon-fsx-for-openzfs/) Feb.18
+-   全球精选 | Storage | [新功能 – 简化对 Amazon S3 中所存储数据的访问管理](https://aws.amazon.com/cn/blogs/china/new-simplify-access-management-for-data-stored-in-amazon-s3/) Feb.18
+-   全球精选 | Storage | [预览 — AWS Backup 添加了对 Amazon S3 的支持](https://aws.amazon.com/cn/blogs/china/preview-aws-backup-adds-support-for-amazon-s3/) Feb.18
+-   全球精选 | RDS for SQL Server | [新功能 – 面向 SQL Server 的 Amazon RDS 自定义现已正式推出](https://aws.amazon.com/cn/blogs/china/new-amazon-rds-custom-for-sql-server-is-generally-available/) Feb.18
+-   全球精选 | Events | [新的 DynamoDB 表类别 – 节省多达 60％ 的 DynamoDB 成本](https://aws.amazon.com/cn/blogs/china/new-dynamodb-table-class-save-up-to-60-in-your-dynamodb-costs/) Feb.18
+-   全球精选 | Events | [新功能 – Amazon DevOps Guru for RDS 使用 ML 检测、诊断和解决与 Amazon Aurora 相关的问题](https://aws.amazon.com/cn/blogs/china/new-amazon-devops-guru-for-rds-to-detect-diagnose-and-resolve-amazon-aurora-related-issues-using-ml/) Feb.18
+-   最新发布 | [新增 – AWS Control Tower Account Factory for Terraform](https://aws.amazon.com/cn/blogs/china/new-aws-control-tower-account-factory-for-terraform/) Feb.18
+-   最新发布 | [新增 – EBS 快照的回收站](https://aws.amazon.com/cn/blogs/china/new-recycle-bin-for-ebs-snapshots/) Feb.18
+-   最新发布 | [新增 – 将 Amazon S3 事件通知与 Amazon EventBridge 结合使用](https://aws.amazon.com/cn/blogs/china/new-use-amazon-s3-event-notifications-with-amazon-eventbridge/) Feb.18
+-   全球精选 | Open Source | [Karpenter 简介 – 开源高性能 Kubernetes 集群自动扩缩程序](https://aws.amazon.com/cn/blogs/china/introducing-karpenter-an-open-source-high-performance-kubernetes-cluster-autoscaler/) Feb.18
+-   全球精选 | Storage | [新增 – Amazon EBS Snapshots Archive](https://aws.amazon.com/cn/blogs/china/new-amazon-ebs-snapshots-archive/) Feb.18
+-   最新发布 | [新增功能 – 使用 AWS Direct Connect SiteLink 实现站点到站点连接](https://aws.amazon.com/cn/blogs/china/new-site-to-site-connectivity-with-aws-direct-connect-sitelink/) Feb.18
+-   最新发布 | [AWS Lake Formation — 具有自动压缩功能的单元格级安全性和受控表正式发布](https://aws.amazon.com/cn/blogs/china/aws-lake-formation-general-availability-of-cell-level-security-and-governed-tables-with-automatic-compaction/) Feb.18
+-   全球精选 | Kinesis Data Streams | [Amazon Kinesis Data Streams 按需模式 – 无需管理容量即可大规模流式传输数据](https://aws.amazon.com/cn/blogs/china/amazon-kinesis-data-streams-on-demand-stream-data-at-scale-without-managing-capacity/) Feb.18
+-   全球精选 | AWS re:Invent | [宣布推出 Amazon SageMaker Canvas — 面向业务分析师的可视化、无代码机器学习功能](https://aws.amazon.com/cn/blogs/china/announcing-amazon-sagemaker-canvas-a-visual-no-code-machine-learning-capability-for-business-analysts/) Feb.18
+-   全球精选 | Serverless | [推出 Amazon Redshift Serverless – 能以任何规模运行分析，而无需管理数据仓库基础设施](https://aws.amazon.com/cn/blogs/china/introducing-amazon-redshift-serverless-run-analytics-at-any-scale-without-having-to-manage-infrastructure/) Feb.18
+-   最新发布 | [AWS Nitro SSD – 适用于输入/输出密集型应用的高性能存储](https://aws.amazon.com/cn/blogs/china/aws-nitro-ssd-high-performance-storage-for-your-i-o-intensive-applications/) Feb.18
+-   全球精选 | Security, Identity, & Compliance | [AWS Control Tower 新增功能 – 区域拒绝和防护机制可帮助您满足数据驻留要求](https://aws.amazon.com/cn/blogs/china/new-for-aws-control-tower-region-deny-and-guardrails-to-help-you-meet-data-residency-requirements/) Feb.18
+-   最新发布 | [由 AWS Graviton2 处理器提供支持的全新存储优化型 Amazon EC2 实例（Im4gn 和 Is4gen）](https://aws.amazon.com/cn/blogs/china/new-storage-optimized-amazon-ec2-instances-im4gn-and-is4gen-powered-by-aws-graviton2-processors/) Feb.18
+-   最新发布 | [新增功能 – AWS Outposts 服务器采用两种外形规格](https://aws.amazon.com/cn/blogs/china/new-aws-outposts-servers-in-two-form-factors/) Feb.18
+-   全球精选 | Security | [Amazon CodeGuru Reviewer 推出密钥检测器功能来识别硬编码的密钥并使用 AWS Secrets Manager 进行保护](https://aws.amazon.com/cn/blogs/china/codeguru-reviewer-secrets-detector-identify-hardcoded-secrets/) Feb.18
+-   全球精选 | Robotics | [预览 – 用于构建机器人机群管理应用程序的 AWS IoT RoboRunner](https://aws.amazon.com/cn/blogs/china/preview-aws-iot-roborunner-for-building-robot-fleet-management-applications/) Feb.18
+-   全球精选 | Open Source | [新功能 – AWS Marketplace for Containers Anywhere，可在任何环境中部署您的 Kubernetes 集群](https://aws.amazon.com/cn/blogs/china/new-aws-marketplace-for-containers-anywhere-to-deploy-your-kubernetes-cluster-in-any-environment/) Feb.18
+-   最新发布 | [加入预览版 — 由新的 AWS Graviton3 处理器提供支持的 Amazon EC2 C7g 实例](https://aws.amazon.com/cn/blogs/china/join-the-preview-amazon-ec2-c7g-instances-powered-by-new-aws-graviton3-processors/) Feb.18
+-   全球精选 | AWS re:Invent | [宣布推出适用于 API 的 AWS Data Exchange：查找、订阅和使用具有一致身份验证的第三方 API](https://aws.amazon.com/cn/blogs/china/data-exchange-for-apis-find-subscribe-use-third-party-apis-consistent-authentication/) Feb.18
+-   全球精选 | Containers | [新增功能 — AWS Proton 支持 Terraform 和 Git 存储库来管理模板](https://aws.amazon.com/cn/blogs/china/new-aws-proton-supports-terraform-and-git-repositories-to-manage-templates/) Feb.18
+-   最新发布 | Price Reduction | [AWS 免费套餐数据传输扩展 – 每月来自各个区域的 100 GB 以及和 Amazon CloudFront 的 1 TB 数据传输](https://aws.amazon.com/cn/blogs/china/aws-free-tier-data-transfer-expansion-100-gb-from-regions-and-1-tb-from-amazon-cloudfront-per-month/) Feb.18
+-   最新发布 | [支持 AWS Fargate 的 AWS Graviton2 —让您的无服务器容器的性价比提高多达 40%](https://aws.amazon.com/cn/blogs/china/announcing-aws-graviton2-support-for-aws-fargate-get-up-to-40-better-price-performance-for-your-serverless-containers/) Feb.18
+-   最新发布 | [新增 — 由最新一代英特尔至强可扩展处理器提供支持的 Amazon EC2 R6i 内存优化型实例](https://aws.amazon.com/cn/blogs/china/new-amazon-ec2-r6i-memory-optimized-instances-powered-by-the-latest-generation-intel-xeon-scalable-processors/) Feb.18
+-   最新发布 | [AWS Cloud Adoption Framework (CAF) 3.0 现已推出](https://aws.amazon.com/cn/blogs/china/aws-cloud-adoption-framework-caf-3-0-is-now-available/) Feb.18
+-   最新发布 | [使用 AWS Resilience Hub 衡量和提升应用程序弹性](https://aws.amazon.com/cn/blogs/china/monitor-and-improve-your-application-resiliency-with-resilience-hub/) Feb.18
+-   全球精选 | Storage | [经济实惠且可扩展的云中灾难恢复](https://aws.amazon.com/cn/blogs/china/scalable-cost-effective-disaster-recovery-in-the-cloud/) Feb.18
+-   最新发布 | [新增 — 由最新一代英特尔至强可扩展处理器提供支持的 Amazon EC2 C6i 实例](https://aws.amazon.com/cn/blogs/china/new-amazon-ec2-c6i-instances-powered-by-the-latest-generation-intel-xeon-scalable-processors/) Feb.18
+-   最新发布 | [宣布推出面向数据科学家的完全托管式 RStudio on Amazon SageMaker](https://aws.amazon.com/cn/blogs/china/announcing-fully-managed-rstudio-on-amazon-sagemaker-for-data-scientists/) Feb.18
+-   全球精选 | RDS for Oracle | [面向 Oracle 的 Amazon RDS 自定义 – 数据库环境中的新控制功能](https://aws.amazon.com/cn/blogs/china/amazon-rds-custom-for-oracle-new-control-capabilities-in-database-environment/) Feb.18
+-   最新发布 | [新功能 — 由 Gaudi 加速器提供支持的用于训练深度学习模型的 EC2 实例](https://aws.amazon.com/cn/blogs/china/new-ec2-instances-powered-by-gaudi-accelerators-for-training-deep-learning-models/) Feb.18
+-   最新发布 | [新的策略建议服务帮助简化 AWS 云迁移和现代化](https://aws.amazon.com/cn/blogs/china/new-strategy-recommendations-service-helps-streamline-aws-cloud-migration-and-modernization/) Feb.18
+-   最新发布 | [借助 AWS Panorama 实现 Edge（边缘）的计算机视觉](https://aws.amazon.com/cn/blogs/china/computer-vision-at-the-edge-with-aws-panorama/) Feb.18
+-   最新发布 | [认识新的 AWS 勇士](https://aws.amazon.com/cn/blogs/china/meet-the-latest-aws-heroes-november-2021/) Feb.18
+-   最新发布 | [Amazon Ads 功能揭秘](https://aws.amazon.com/cn/blogs/china/reinvent-session-preview-under-the-hood-at-amazon-ads/) Feb.18
+-   最新发布 | [适用于 Amazon Redshift 的 AWS Data Exchange](https://aws.amazon.com/cn/blogs/china/new-aws-data-exchange-for-amazon-redshift/) Feb.18
+-   最新发布 | [适用于 EC2 Auto Scaling 和 EC2 机群的基于属性的实例类型选择](https://aws.amazon.com/cn/blogs/china/new-attribute-based-instance-type-selection-for-ec2-auto-scaling-and-ec2-fleet/) Feb.18
+-   全球精选 | PostgreSQL compatible | [告别 Microsoft SQL Server，迎接 Babelfish](https://aws.amazon.com/cn/blogs/china/goodbye-microsoft-sql-server-hello-babelfish/) Feb.21
+-   全球精选 | Events | [DynamoDB，十周年快乐！](https://aws.amazon.com/cn/blogs/china/happy-birthday-dynamodb/) Feb.22
+-   大咖专栏 | Desktop & Application Streaming | [Amazon WorkSpaces 自动检测来自黑名单国家的登录](https://aws.amazon.com/cn/blogs/china/update-amazon-workspaces-automatically-detects-logins-from-blacklisted-countries/) Feb.23
+
+## **三月**
+
+-   最新发布 | Storage | [新增功能 – 适用于 Amazon S3 的其他校验和算法](https://aws.amazon.com/cn/blogs/china/new-additional-checksum-algorithms-for-amazon-s3/) Mar.2
+-   最新发布 | [让仅使用 IPv6 的工作负载连接到 IPv4 服务](https://aws.amazon.com/cn/blogs/china/let-your-ipv6-only-workloads-connect-to-ipv4-services/) Mar.3
+-   全球精选 | RDS for PostgreSQL | [全新 Amazon RDS for MySQL 和 PostgreSQL 多可用区部署选项：经过改进的写入性能和更快的故障转移速度](https://aws.amazon.com/cn/blogs/china/amazon-rds-multi-az-db-cluster/) Mar.4
+-   最新发布 | Sustainability | [新增内容 – Customer Carbon Footprint Tool](https://aws.amazon.com/cn/blogs/china/new-customer-carbon-footprint-tool/) Mar.4
+-   大咖专栏 | Desktop & Application Streaming | [通过 Amazon API Gateway 和 Amazon Lambda 实现基于 Restful API 的 CloudFront Distribution 复制/克隆功能](https://aws.amazon.com/cn/blogs/china/restful-api-based-cloudfront-distribution-copy-clone-functionality-via-amazon-api-gateway-and-amazon-lambda/) Mar.4
+-   大咖专栏 | Networking & Content Delivery | [通过 Amazon API Gateway 和 Amazon Lambda 实现基于 Restful API 的 CloudFront Distribution 复制/克隆功能](https://aws.amazon.com/cn/blogs/china/restful-api-based-cloudfront-distribution-copy-clone-functionality-via-amazon-api-gateway-and-amazon-lambda/) Mar.4
+-   大咖专栏 | Analytics | [基于 VPC Flow Logs 的 NAT Gateway 网络流量分析与可视化方案](https://aws.amazon.com/cn/blogs/china/nat-gateway-network-traffic-analysis-and-visualization-scheme-based-on-vpc-flow-logs/) Mar.4
+-   大咖专栏 | Networking & Content Delivery | [亚马逊云科技 WAF 部署小指南(一) WAF原理、默认部署及日志存储](https://aws.amazon.com/cn/blogs/china/aws-waf-deployment-guide-1-waf-principle-default-deployment-and-log-storage/) Mar.4
+-   大咖专栏 | Networking & Content Delivery | [亚马逊云科技WAF部署小指南(二) 使用经济实用的Log Insights进行日志分析](https://aws.amazon.com/cn/blogs/china/aws-waf-deployment-guide-2-using-economical-and-practical-log-insights-for-progress/) Mar.4
+-   大咖专栏 | Networking & Content Delivery | [亚马逊云科技WAF部署小指南(三) 使用OpenSearch进行WAF安全调查](https://aws.amazon.com/cn/blogs/china/aws-waf-deployment-guide-3-using-opensearch-for-waf-security-investigation/) Mar.4
+-   大咖专栏 | Contact Center | [使用 Amazon Connect 搭建电话语音通知服务](https://aws.amazon.com/cn/blogs/china/use-amazon-connect-to-build-a-phone-voice-notification-service/) Mar.4
+-   大咖专栏 | Artificial Intelligence | [Amazon DeepRacer 模型训练指南及标准硬件配置流程](https://aws.amazon.com/cn/blogs/china/amazon-deepracer-model-training-guide-and-standard-hardware-configuration-process/) Mar.4
+-   大咖专栏 | Networking & Content Delivery | [亚马逊云科技WAF部署小指南(四) 使用Log Hub 自动部署方案进行WAF安全运营](https://aws.amazon.com/cn/blogs/china/aws-waf-deployment-guide-4-using-the-log-hub-automatic-deployment-solution-for-waf-security-operations/) Mar.8
+-   大咖专栏 | Networking & Content Delivery | [在海外区域使用AWS Client VPN 访问云上VPC 内网资源](https://aws.amazon.com/cn/blogs/china/use-client-vpn-to-access-to-private-vpc-in-global-region/) Mar.9
+-   最新发布 | [AWS 一周回顾 – 2022 年 3 月 7 日](https://aws.amazon.com/cn/blogs/china/aws-week-in-review-march-7-2022/) Mar.9
+-   大咖专栏 | Artificial Intelligence | [如何透过 Serverless 与 API 的方式异步搜寻数据湖中的数据](https://aws.amazon.com/cn/blogs/china/how-to-search-data-in-the-data-lake-asynchronously-through-serverless-and-api/) Mar.11
+-   大咖专栏 | Containers | [基于AWS Cloud Map 的混合微服务架构](https://aws.amazon.com/cn/blogs/china/hybrid-microservice-architecture-based-on-aws-cloud-map/) Mar.11
+-   全球精选 | Thought Leadership | [打破偏见 AWS 开发人员关系团队的女性成员](https://aws.amazon.com/cn/blogs/china/breaking-the-bias-women-at-aws-developer-relations/) Mar.12
+-   大咖专栏 | Industries | [使用 AWS Lambda 和 API Gateway 实现微信小程序后端服务](https://aws.amazon.com/cn/blogs/china/use-aws-lambda-and-api-gateway-to-implement-wechat-mini-program-backend-services/) Mar.14
+-   大咖专栏 | Networking & Content Delivery | [使用 Amazon Timestream 和 Amazon Manage Grafana 对Amazon CloudFront 性能进行可视化监控](https://aws.amazon.com/cn/blogs/china/using-amazon-timestream-and-amazon-manage-grafana-to-do-visual-monitoring-of-amazon-cloudfront-performance/) Mar.14
+-   大咖专栏 | Analytics | [使用 Amazon Glue DataBrew 对数据进行预处理](https://aws.amazon.com/cn/blogs/china/preprocess-the-data-with-amazon-glue-databrew/) Mar.14
+-   大咖专栏 | Security, Identity, & Compliance | [使用 iamlive 获取最小权限](https://aws.amazon.com/cn/blogs/china/use-iamlive-for-least-privilege/) Mar.15
+-   全球精选 | SAP on AWS | [新增功能 – 适用于具有更高网络带宽的内存密集型工作负载的 Amazon EC2 X2idn 和 X2iedn 实例](https://aws.amazon.com/cn/blogs/china/new-amazon-ec2-x2idn-and-x2iedn-instances-for-memory-intensive-workloads-with-higher-network-bandwidth/) Mar.15
+-   大咖专栏 | Artificial Intelligence | [在 Amazon SageMaker 上微调与部署语音分离模型](https://aws.amazon.com/cn/blogs/china/fine-tune-and-deploy-a-speech-separation-model-on-amazon-sagemaker/) Mar.15
+-   全球精选 | Artificial Intelligence | [使用 Amazon Lookout for Equipment 进行声学异常检测](https://aws.amazon.com/cn/blogs/china/acoustic-anomaly-detection-using-amazon-lookout-for-equipment/) Mar.15
+-   大咖专栏 | Analytics | [使用Fluent Bit与Amazon OpenSearch Service构建日志系统](https://aws.amazon.com/cn/blogs/china/build-a-logging-system-with-fluent-bit-and-amazon-opensearch-service/) Mar.15
+-   全球精选 | Public Sector | [加拿大政府部门使用人工智能驱动的聊天机器人为公共部门员工和组织提供服务](https://aws.amazon.com/cn/blogs/china/canadian-government-serves-public-sector-employees-organizations-ai-chatbot/) Mar.15
+-   全球精选 | Artificial Intelligence | [Kabbage 如何通过 Amazon Textract 改善 PPP 贷款体验](https://aws.amazon.com/cn/blogs/china/how-kabbage-improved-the-ppp-lending-experience-with-amazon-textract/) Mar.16
+-   全球精选 | Artificial Intelligence | [使用 Amazon SageMaker 为新用户提供实时音乐推荐](https://aws.amazon.com/cn/blogs/china/real-time-music-recommendations-for-new-users-with-amazon-sagemaker/) Mar.16
+-   最新发布 | Storage | [欢迎参加 AWS Pi Day 2022](https://aws.amazon.com/cn/blogs/china/welcome-to-aws-pi-day-2022/) Mar.16
+-   全球精选 | Amazon Machine Learning, Artificial Intelligence | [通过个性化在线体育内容提高参与度](https://aws.amazon.com/cn/blogs/china/increasing-engagement-with-personalized-online-sports-content-2/) Mar.16
+-   全球精选 | Artificial Intelligence | [Thomson Reuters 如何利用 Amazon SageMaker 加快自然语言处理解决方案的研究和开发](https://aws.amazon.com/cn/blogs/china/how-thomson-reuters-accelerated-research-and-development-of-natural-language-processing-solutions-with-amazon-sagemaker/) Mar.16
+-   全球精选 | Amazon Machine Learning, Artificial Intelligence | [使用 Amazon SageMaker Clarify 解释德甲赛况 xGoals](https://aws.amazon.com/cn/blogs/china/explaining-bundesliga-match-facts-xgoals-using-amazon-sagemaker-clarify/) Mar.16
+-   最新发布 | [AWS 一周回顾 – 2022 年 3 月 14 日](https://aws.amazon.com/cn/blogs/china/aws-week-in-review-march-14-2022/) Mar.16
+-   大咖专栏 | SAP on AWS | [如何利用亚马逊云科技的原生服务提升SAP HANA集群监控中的可观测性](https://aws.amazon.com/cn/blogs/china/how-to-improve-sap-hana-cluster-monitoring-with-aws-native-services/) Mar.16
+-   最新发布 | [认识 2022 年第一批 AWS 勇士！](https://aws.amazon.com/cn/blogs/china/get-to-know-the-first-aws-heroes-of-2022/) Mar.21
+-   最新发布 | [新的以及经过更新的 AWS Well-Architected Lens](https://aws.amazon.com/cn/blogs/china/new-and-updated-aws-well-architected-lenses/) Mar.21
+-   大咖专栏 | Containers | [Kubernetes 节点弹性伸缩开源组件 Karpenter 实践：部署GPU推理应用](https://aws.amazon.com/cn/blogs/china/kubernetes-node-elastic-scaling-open-source-component-karpenter-practice-deploying-gpu-inference-applications/) Mar.22
+-   大咖专栏 | DevOps | [AWS CodePipeline与GitHub集成](https://aws.amazon.com/cn/blogs/china/aws-codepipeline-integrates-with-github/) Mar.23
+-   大咖专栏 | Networking & Content DeliveryContainers | [采用亚马逊云科技Cloud WAN实现区域间网络互连](https://aws.amazon.com/cn/blogs/china/using-aws-cloud-wan-to-achieve-inter-regional-network-interconnection/) Mar.23
+-   大咖专栏 | Database | [条条大路通罗马 —— 使用redisson连接Amazon ElastiCache for redis 集群](https://aws.amazon.com/cn/blogs/china/connecting-amazon-elasticache-for-redis-cluster-using-redisson/) Mar.23
+-   大咖专栏 | Internet of Things | [利用 Amazon IoT 生命周期事件和 LWT 管理设备状态](https://aws.amazon.com/cn/blogs/china/manage-device-state-with-amazon-iot-lifecycle-events-and-lwt/) Mar.23
+-   大咖专栏 | Networking & Content Delivery | [使用NICE DCV 管理带有 GPU的Ubuntu桌面](https://aws.amazon.com/cn/blogs/china/manage-ubuntu-desktop-with-gpu-using-nice-dcv/) Mar.23
+-   大咖专栏 | Analytics | [通过 Amazon Kinesis Data Streams 实现跨账户应用日志收集解决方案](https://aws.amazon.com/cn/blogs/china/implement-cross-account-application-log-collection-solution-through-amazon-kinesis-data-streams/) Mar.25
+-   大咖专栏 | Business Productivity | [业务数字化分析与业务领域建模设计](https://aws.amazon.com/cn/blogs/china/business-digital-analysis-and-business-domain-modeling-design/) Mar.25
+-   大咖专栏 | Storage | [PB级存储从GP2向GP3的迁移实践](https://aws.amazon.com/cn/blogs/china/migration-practice-of-pb-level-storage-from-gp2-to-gp3/) Mar.25
+-   大咖专栏 | SAP on AWS | [使用AWS 托管的普罗米修斯监控SAP HANA](https://aws.amazon.com/cn/blogs/china/monitoring-sap-hana-with-aws-hosted-prometheus/) Mar.25
+-   大咖专栏 | Desktop & Application Streaming | [利用Azure MFA 认证者电话应用程序认证Amazon WorkSpaces用户登录](https://aws.amazon.com/cn/blogs/china/utilize-azure-mfa-authenticator-phone-app-2/) Mar.25
+-   大咖专栏 | Analytics | [利用QuickSight实现AWS精细化成本管理](https://aws.amazon.com/cn/blogs/china/implementing-aws-refined-cost-management-with-quicksight/) Mar.25
+-   大咖专栏 | Compute | [基于AWS Batch搭建量化回测系统](https://aws.amazon.com/cn/blogs/china/building-a-quantitative-backtesting-system-based-on-aws-batch/) Mar.28
+-   全球精选 | AWS Big Data | [Amazon Redshift 的新功能 — 2021 年回顾](https://aws.amazon.com/cn/blogs/china/whats-new-in-amazon-redshift-2021-a-year-in-review/) Mar.28
+-   全球精选 | AWS Big Data | [Apache Hudi 0.7.0 和 0.8.0 新功能已在 Amazon EMR 中可用](https://aws.amazon.com/cn/blogs/china/new-features-from-apache-hudi-0-7-0-and-0-8-0-available-on-amazon-emr/) Mar.28
+
+## **四月**
+
+-   全球精选 | Storage | [AWS Lambda 现在支持高达 10 GB 的短暂存储空间](https://aws.amazon.com/cn/blogs/china/aws-lambda-now-supports-up-to-10-gb-ephemeral-storage/) Apr.1
+-   最新发布 | [AWS 一周回顾 – 2022 年 3 月 21 日](https://aws.amazon.com/cn/blogs/china/aws-week-in-review-march-21-2022/) Apr.1
+-   最新发布 | [新增功能 – 适用于 AWS 的 Cloud NGFW](https://aws.amazon.com/cn/blogs/china/new-cloud-ngfw-for-aws/) Apr.1
+-   最新发布 | [AWS 一周回顾 – 2022 年 3 月 28 日](https://aws.amazon.com/cn/blogs/china/aws-week-in-review-march-28-2022/) Apr.1
+-   全球精选 | AWS Big Data | [宣布推出 Amazon EMR Serverless（预览版）：无需管理服务器即可运行大数据应用程序](https://aws.amazon.com/cn/blogs/china/announcing-amazon-emr-serverless-preview-run-big-data-applications-without-managing-servers/)– Apr.1
+-   全球精选 | AWS Big Data | [使用 Amazon Lake Formation 为数据网格构建数据共享工作流](https://aws.amazon.com/cn/blogs/china/build-a-data-sharing-workflow-with-aws-lake-formation-for-your-data-mesh/) Apr.1
+-   全球精选 | AWS Big Data | [新使用体验 — Amazon SageMaker Studio 创建和管理 EMR 集群与 Spark 作业](https://aws.amazon.com/cn/blogs/china/new-create-and-manage-emr-clusters-and-spark-jobs-with-amazon-sagemaker-studio-2/) Apr.1
+-   全球精选 | AWS Big Data | [构建现代化数据架构-使用 Amazon AppFlow、AmazonLake Formation 和 Amazon Redshift](https://aws.amazon.com/cn/blogs/china/build-a-modern-data-architecture-on-aws-with-amazon-appflow-aws-lake-formation-and-amazon-redshift/) Apr.1
+-   全球精选 | AWS Big Data | [借助 Amazon Redshift 为具有强大抗风险能力的使用案例提供支持](https://aws.amazon.com/cn/blogs/china/power-highly-resilient-use-cases-with-amazon-redshift/) Apr.1
+-   大咖专栏 | Architecture | [开发软件定义车辆平台 —— 大陆汽车CAEdge](https://aws.amazon.com/cn/blogs/china/development-of-a-software-defined-vehicle-platform-continental-automotive-caedge/) Apr.1
+-   最新发布 | [AWS 一周回顾 – 2022 年 4 月 4 日](https://aws.amazon.com/cn/blogs/china/aws-week-in-review-april-4-2022/) Apr.8
+-   大咖专栏 | Artificial Intelligence | [Amazon DeepRacer 多种策略模型实战应用分析](https://aws.amazon.com/cn/blogs/china/practical-application-analysis-of-amazon-deepracer-multiple-strategy-models/) Apr.11
+-   最新发布 | [AWS 一周回顾 – 2022 年 4 月 11 日](https://aws.amazon.com/cn/blogs/china/aws-week-in-review-april-11-2022/) Apr.13
+-   大咖专栏 | Analytics | [在EKS中使用Apache Skywalking实现应用性能监控](https://aws.amazon.com/cn/blogs/china/application-performance-monitoring-with-apache-skywalking-in-eks/) Apr.14
+-   大咖专栏 | Architecture | [使用可视化工具加载 Amazon Redshift 数仓数据完成机器学习数据准备和模型快速验证](https://aws.amazon.com/cn/blogs/china/use-the-visualization-tool-to-load-amazon-redshift-data-warehouse-data-to-complete-machine-learning-data/) Apr.14
+-   大咖专栏 | Artificial Intelligence | [LightGBM 算法框架运行在Amazon Sagemaker](https://aws.amazon.com/cn/blogs/china/the-lightgbm-algorithm-framework-runs-on-amazon-sagemaker/) Apr.14
+-   大咖专栏 | Architecture | [如何在数据库里面使用SQL语句直接调用Amazon机器学习服务进行推理](https://aws.amazon.com/cn/blogs/china/how-to-use-sql-statements-in-the-database-to-directly-call-amazon-machine-learning-service-for-reasoning/) Apr.15
+-   大咖专栏 | Architecture | [基于 Amazon SageMaker Canvas 无代码构建分类模型](https://aws.amazon.com/cn/blogs/china/build-a-classification-model-without-code-based-on-amazon-sagemaker-canvas/) Apr.15
+-   大咖专栏 | Artificial Intelligence | [使用 Amazon SageMaker 构建机器学习应用](https://aws.amazon.com/cn/blogs/china/building-machine-learning-applications-with-amazon-sagemaker/) Apr.15
+-   大咖专栏 | Architecture | [使用Amazon Redshift ML构建机器学习应用](https://aws.amazon.com/cn/blogs/china/building-machine-learning-applications-using-amazon-redshift-ml/) Apr.15
+-   大咖专栏 | Artificial Intelligence | [基于Amazon Serverless和SageMaker实现空气质量预测](https://aws.amazon.com/cn/blogs/china/air-quality-prediction-based-on-amazon-serverless-and-sagemaker/) Apr.15
+-   大咖专栏 | Containers | [通过Rancher 管理Amazon EKS集群与应用](https://aws.amazon.com/cn/blogs/china/manage-amazon-eks-clusters-and-applications-through-rancher/) Apr.18
+-   大咖专栏 | Database | [百尺竿头更进一步 – 拓展 Aurora的读写能力之Gaea篇](https://aws.amazon.com/cn/blogs/china/make-further-progress-gaea-chapter-on-expanding-auroras-reading-and-writing-ability/) Apr.18
+-   大咖专栏 | Analytics | [深度探索通过数据共享（data sharing）优化Amazon Redshift工作负载分解](https://aws.amazon.com/cn/blogs/china/deep-exploration-optimizes-amazon-redshift-workload-decomposition-through-data-sharing/) Apr.18
+-   大咖专栏 | Analytics | [如何通过互联网安全地访问Amazon Managed Streaming for Apache Kafka (Amazon MSK) 集群（一）](https://aws.amazon.com/cn/blogs/china/how-to-safely-access-amazon-managed-streaming-for-apache-kafka-amazon-msk-cluster-through-the-internet-i/) Apr.18
+-   大咖专栏 | Internet of Things | [使用Terraform对Amazon IoT进行规则操作的自动化部署](https://aws.amazon.com/cn/blogs/china/automated-deployment-of-rule-operations-for-amazon-iot-using-terraform/) Apr.18
+-   大咖专栏 | Business Productivity | [集中整合EventBridge事件通知发送到钉钉和企业微信](https://aws.amazon.com/cn/blogs/china/centralized-integration-of-eventbridge-event-notifications-sent-to-ding-talk-and-enterprise-wechat/) Apr.18
+-   大咖专栏 | Database | [百尺竿头更进一步 – Amazon Aurora的读写能力扩展之ShardingSphere-Proxy篇](https://aws.amazon.com/cn/blogs/china/make-further-progress-shardingsphere-proxy-chapter-of-amazon-auroras-reading-and-writing-ability-expansion/) Apr.18
+-   大咖专栏 | Internet of Things | [使用Amazon IoT Core, Amazon Kinesis Video Streams 和Amazon Rekognition构建中小安防系统的方法](https://aws.amazon.com/cn/blogs/china/kubernetes-node-elastic-scaling-open-source-component-karpenter-practice-cost-optimization-using-spot-instance/) Apr.18
+-   大咖专栏 | Analytics | [一种低成本的数据访问行为分析方法](https://aws.amazon.com/cn/blogs/china/a-low-cost-data-access-behavior-analysis-method/) Apr.18
+-   大咖专栏 | Business Productivity | [从灵感到产品，设计思维的作用](https://aws.amazon.com/cn/blogs/china/from-inspiration-to-products-the-role-of-design-thinking/) Apr.19
+-   大咖专栏 | Security, Identity, & Compliance | [如何在跨账户环境下安全地执行操作系统脚本](https://aws.amazon.com/cn/blogs/china/how-to-execute-operating-system-scripts-safely-in-a-cross-account-environment/) Apr.19
+-   大咖专栏 | Analytics | [通过AWS DMS与Amazon MSK来实时收集Amazon DocumentDB中的流数据](https://aws.amazon.com/cn/blogs/china/collect-stream-data-in-amazon-documentdb-in-real-time-through-aws-dms-and-amazon-msk/) Apr.19
+-   最新发布 | [Amazon FSx for NetApp ONTAP 更新 – 新的单可用区部署类型](https://aws.amazon.com/cn/blogs/china/amazon-fsx-for-netapp-ontap-update-new-single-az-deployment-type/) Apr.19
+-   全球精选 | Serverless | [宣布推出 AWS Lambda 函数 URL：用于单功能微服务的内置 HTTPS 端点](https://aws.amazon.com/cn/blogs/china/announcing-aws-lambda-function-urls-built-in-https-endpoints-for-single-function-microservices-2/) Apr.19
+-   最新发布 | [AWS 一周回顾 – 2022 年 4 月 18 日](https://aws.amazon.com/cn/blogs/china/aws-week-in-review-april-18-2022/) Apr.20
+-   最新发布 | [AWS 合作伙伴网络（APN）– 十年创新，砥砺前行](https://aws.amazon.com/cn/blogs/china/aws-partner-network-apn-10-years-and-going-strong/) Apr.20
+-   大咖专栏 | Containers | [Kubernetes 节点弹性伸缩开源组件 Karpenter 实践：使用 Spot 实例进行成本优化](https://aws.amazon.com/cn/blogs/china/kubernetes-node-elastic-scaling-open-source-component-karpenter-practice-cost-optimization-using-spot-instance/) Apr.20
+-   大咖专栏 | Security, Identity, & Compliance | [使用 Amazon CodePipeline 来自动化部署到 Amazon EKS 集群](https://aws.amazon.com/cn/blogs/china/use-codepipeline-to-automate-deployment-to-eks-cluster/) Apr.20
+-   大咖专栏 | Analytics | [自动驾驶数据湖（一）：场景检测](https://aws.amazon.com/cn/blogs/china/autonomous-driving-data-lake-scene-detection/) Apr.21
+-   大咖专栏 | Database | [百尺竿头更进一步-Aurora读写能力扩展之Sharding-JDBC篇](https://aws.amazon.com/cn/blogs/china/further-development-shardingg-jdbc-chapter-of-auroras-reading-and-writing-ability-expansion/) Apr.21
+-   全球精选 | SAP on AWS | [AWS Migration Hub Orchestrator – 具有可自定义工作流模板的新迁移编排功能](https://aws.amazon.com/cn/blogs/china/aws-migration-hub-orchestrator-new-migration-orchestration-capability-with-customizable-workflow-templates/)  Apr.22
+-   大咖专栏 | Analytics | [自动驾驶数据湖（二）：图像处理和模型训练](https://aws.amazon.com/cn/blogs/china/autonomous-driving-data-lake-image-processing-and-model-training/) Apr.22
+-   大咖专栏 | Analytics | [自动驾驶数据湖（三）：图像处理流程管道](https://aws.amazon.com/cn/blogs/china/autonomous-driving-data-lake-image-extraction-pipeline-using-airflow/) Apr.22
+-   大咖专栏 | End User Computing | [利用Amazon WorkMail快速配置企业电子邮箱](https://aws.amazon.com/cn/blogs/china/quickly-configure-enterprise-e-mail-with-amazon-workmail/) Apr.22
+-   大咖专栏 | Analytics | [Amazon EMR之EMR和Hadoop的前世今生](https://aws.amazon.com/cn/blogs/china/past-and-present-lives-of-amazon-emr-and-hadoop/) Apr.24
+-   大咖专栏 | Analytics | [Spark 小文件合并功能在 AWS S3 上的应用与实践](https://aws.amazon.com/cn/blogs/china/application-and-practice-of-spark-small-file-merging-function-on-aws-s3/) Apr.24
+-   全球精选 | Artificial Intelligence | [Amazon SageMaker 无服务器推理 – 无需担心服务器配置的机器学习推理](https://aws.amazon.com/cn/blogs/china/amazon-sagemaker-serverless-inference-machine-learning-inference-without-worrying-about-servers/) Apr.25
+-   大咖专栏 | Networking & Content Delivery | [手把手配置Amazon CloudFront 实现全站加速](https://aws.amazon.com/cn/blogs/china/configure-amazon-cloudfront-to-accelerate-the-whole-site/) Apr.26
+-   大咖专栏 | Business Productivity | [业务SaaS化中的五种误区](https://aws.amazon.com/cn/blogs/china/five-misunderstandings-in-business-saas/) Apr.26
+-   全球精选 | Serverless | [使用 AWS Systems Manager Patch Manager 修补您的 Windows EC2 实例](https://aws.amazon.com/cn/blogs/china/patch-your-windows-ec2-instance-with-aws-systems-manager-patch-manager/) Apr.26
+-   全球精选 | Security, Identity, & Compliance | [AWS Health Aware – 为组织和个人 AWS 账户自定义 AWS 健康警报](https://aws.amazon.com/cn/blogs/china/aws-health-aware-customize-aws-health-alerts-for-organizational-and-personal-aws-accounts/) Apr.26
+-   全球精选 | [使用 AWS Systems Manager 转发 Amazon EC2 实例端口](https://aws.amazon.com/cn/blogs/china/forward-amazon-ec2-instance-port-using-aws-systems-manager/) Apr.26
+-   全球精选 | Management Tools | [使用 AWS Systems Manager Patch Manager 修补您的 Windows EC2 实例](https://aws.amazon.com/cn/blogs/china/patching-your-windows-ec2-instances-using-aws-systems-manager-patch-manager/) Apr.26
+-   全球精选 | Management Tools | [如何使用 CloudWatch 获得有关特定 Lambda 函数错误模式的通知](https://aws.amazon.com/cn/blogs/china/how-to-get-notified-on-specific-lambda-function-error-patterns-using-cloudwatch/) Apr.26
+-   全球精选 | Analytics | [使用 Amazon MSK Connect、Apache Flink 和 Apache Hudi 创建低延迟的源到数据湖管道](https://aws.amazon.com/cn/blogs/china/create-a-low-latency-source-to-data-lake-pipeline-using-amazon-msk-connect-apache-flink-and-apache-hudi/) Apr.26
+-   全球精选 | [油气服务行业软件落地“亚马逊云科技中国区域”的技术实践与总结](https://aws.amazon.com/cn/blogs/china/technical-practice-and-summary-of-software-landing-in-oil-and-gas-service-industry-in-aws-china/) Apr.26
+-   大咖专栏 | Database | [使用企业微信接收数据库事件通知](https://aws.amazon.com/cn/blogs/china/enterprise-wechat-database-usage-notification/) Apr.26
+-   大咖专栏 | Database | [居安思危 – Amazon Aurora 故障恢复不同JDBC Driver下的时延分析](https://aws.amazon.com/cn/blogs/china/be-vigilant-in-times-of-safety-amazon-aurora-fault-recovery-delay-analysis-under-different-jdbc-drivers/) Apr.26
+-   全球精选 | Database | [在 Kubernetes 中为应用程序部署 Amazon RDS 数据库](https://aws.amazon.com/cn/blogs/china/deploy-amazon-rds-databases-for-applications-in-kubernetes/) Apr.26
+-   全球精选 | [事半功倍：从事务性批处理转向有状态批处理](https://aws.amazon.com/cn/blogs/china/doing-more-with-less-moving-from-transactional-to-stateful-batch-processing/) Apr.26
+-   全球精选 | Artificial Intelligence | [Cynamics 如何使用 AWS 构建大规模、近乎实时的流式传输 AI 推理系统](https://aws.amazon.com/cn/blogs/china/how-cynamics-built-a-high-scale-near-real-time-streaming-ai-inference-system-using-aws/) Apr.26
+-   全球精选 | Artificial Intelligence | [通过 Amazon OpenSearch Service 上的 AWS Graviton2 实例提高性能](https://aws.amazon.com/cn/blogs/china/improved-performance-with-aws-graviton2-instances-on-amazon-opensearch-service/) Apr.26
+-   全球精选 | Database | [适用于 Oracle 向 Amazon RDS for PostgreSQL 或 Amazon Aurora PostgreSQL 迁移的架构和代码验证器](https://aws.amazon.com/cn/blogs/china/architecture-and-code-verifier-for-oracle-migration-to-amazon-rds-for-postgresql-or-amazon-aurora-postgresql/) Apr.26
+-   大咖专栏 | Artificial Intelligence | [Amazon Personalize 个性化效果评估，从准确性到多样性、新颖性和偶然性](https://aws.amazon.com/cn/blogs/china/amazon-personalize-personalized-effect-evaluation-from-accuracy-to-diversity-novelty-and-contingency/) Apr.27
+-   大咖专栏 | Analytics | [使用 Amazon MSK、Apache Flink 和 Apache Hudi 实现流批一体的数据湖架构](https://aws.amazon.com/cn/blogs/china/unified-batch-stream-architectures/) Apr.27
+-   大咖专栏 | Case Study | [基于Windows SaaS应用的现代化改造实践](https://aws.amazon.com/cn/blogs/china/modernization-practice-based-on-windows-saas-application/) Apr.27
+-   大咖专栏 | Containers | [通过Istio在Amazon EKS上实现灰度发布](https://aws.amazon.com/cn/blogs/china/gray-publishing-on-amazon-eks-through-istio/) Apr.27
+-   大咖专栏 | Serverless | [基于AWS Serverless 一键启用微信/钉钉告警通知](https://aws.amazon.com/cn/blogs/china/enable-wechat-dingtalk-alarm-notification-with-one-click-based-on-aws-serverless/) Apr.28
+-   大咖专栏 | [亚马逊云科技2022年3月新服务新功能强势来袭](https://aws.amazon.com/cn/blogs/china/new-services-and-features-in-aws-china-in-march/) Apr.28
+-   全球精选 | Analytics | [构建、共享、部署：业务分析师和数据科学家如何使用无代码机器学习和 Amazon SageMaker Canvas 缩短面市时间](https://aws.amazon.com/cn/blogs/china/build-share-deploy-how-business-analysts-and-data-scientists-achieve-faster-time-to-market-using-no-code-ml-and-amazon-sagemaker-canvas/) Apr.28
+-   大咖专栏 | Analytics | [使用Spline收集Spark数据血缘实践](https://aws.amazon.com/cn/blogs/china/using-spline-to-collect-spark-data-kinship-practice/) Apr.28
+-   大咖专栏 | Migration, Migration & Transfer Services | [使用TiDB Data Migration迁移分库分表数据库到Amazon Aurora](https://aws.amazon.com/cn/blogs/china/use-tidb-data-migration-to-migrate-sub-databases-and-sub-tables-to-aurora/) Apr.29
+-   大咖专栏 | Analytics | [自动驾驶数据湖（四）：可视化](https://aws.amazon.com/cn/blogs/china/autonomous-driving-data-lake-visualization-using-webviz/) Apr.29
+
+## **五月**
+
+-   大咖专栏 | DevOps | [Jenkins集成AWS开发者服务构建端到端CICD流水线](https://aws.amazon.com/cn/blogs/china/jenkins-integrates-aws-developer-services-to-build-an-end-to-end-cicd-pipeline/) May.5
+-   大咖专栏 | Analytics | [使用AWS托管MSK Connector和EMR Flink从AWS RDS进行CDC数据消费](https://aws.amazon.com/cn/blogs/china/use-aws-hosted-msk-connector-and-emr-flink-to-consume-cdc-data-from-aws-rds/) May.5
+-   全球精选 | Analytics | [利用Amazon Redshift的流式摄取构建实时数仓](https://aws.amazon.com/cn/blogs/china/real-time-analytics-with-amazon-redshift-streaming-ingestion/) May.6
+-   全球精选 | Analytics | [使用 AWS Glue、Apache Hudi 和 Amazon S3 构建无服务器管道以分析串流数据](https://aws.amazon.com/cn/blogs/china/build-a-serverless-pipeline-to-analyze-streaming-data-using-aws-glue-apache-hudi-and-amazon-s3/) May.6
+-   大咖专栏 | Security, Identity, & Compliance | [多账号环境下的密钥管理策略决策分析](https://aws.amazon.com/cn/blogs/china/decision-analysis-of-key-management-strategy-in-multi-account-environment/) May.6
+-   大咖专栏 | Artificial Intelligence | [基于Amazon Kinesis Video Streams 与 Amazon Rekognition Streaming Video Events实时视频检测方案](https://aws.amazon.com/cn/blogs/china/real-time-video-detection-scheme-based-on-amazon-kinesis-video-streams-and-amazon-rekognition-streaming-video-events/) May.9
+-   最新发布 | [AWS 一周回顾 – 2022 年 5 月 2 日](https://aws.amazon.com/cn/blogs/china/aws-week-in-review-may-2-2022/) May.9
+-   全球精选 | Serverless | [使用 Amazon DevOps Guru for Serverless 自动检测 Lambda 函数中的运行问题](https://aws.amazon.com/cn/blogs/china/automatically-detect-operational-issues-in-lambda-functions-with-amazon-devops-guru-for-serverless/) May.9
+-   最新发布 | [宣布 AWS Amplify Studio 正式发布](https://aws.amazon.com/cn/blogs/china/announcing-the-general-availability-of-aws-amplify-studio/) May.9
+-   最新发布 | [AWS IoT TwinMaker 现已正式发布](https://aws.amazon.com/cn/blogs/china/aws-iot-twinmaker-is-now-generally-available/) May.9
+-   最新发布 | [多伦多的新 AWS Wavelength 区域 – 加拿大首个](https://aws.amazon.com/cn/blogs/china/new-aws-wavelength-zone-in-toronto-the-first-in-canada/) May.9
+-   全球精选 | Announcements | [Amazon MSK Serverless 现已正式推出–无需再为托管式 Kafka 集群进行容量规划](https://aws.amazon.com/cn/blogs/china/amazon-msk-serverless-now-generally-available-no-more-capacity-planning-for-your-managed-kafka-clusters/) May.9
+-   最新发布 | [新增 – 存储优化型 Amazon EC2 实例 (I4i)，由英特尔至强可扩展 (Ice Lake) 处理器提供支持](https://aws.amazon.com/cn/blogs/china/new-storage-optimized-amazon-ec2-instances-i4i-powered-by-intel-xeon-scalable-ice-lake-processors/) May.9
+-   大咖专栏 | Application Integration | [EC2 Spot实例中断引起的AWS Batch任务重试优化](https://aws.amazon.com/cn/blogs/china/aws-batch-task-retry-optimization-caused-by-ec2-spot-instance-interruption/) May.10
+-   大咖专栏 | Analytics | [无需订阅费! 手把手教你如何在Amazon OpenSearch Service中使用跨集群复制功能（Cross-Cluster Replication）](https://aws.amazon.com/cn/blogs/china/no-subscription-fee-teach-you-how-to-use-cross-cluster-replication-in-amazon-opensearch-service/) May.11
+-   大咖专栏 | Containers | [使用 Readiness Gate 解决 EKS Pod 滚动升级产生的服务中断](https://aws.amazon.com/cn/blogs/china/use-the-readiness-gate-to-solve-the-service-interruption-caused-by-the-rolling-upgrade-of-eks-pod/) May.11
+-   全球精选 | Game Development | [AWS 一周回顾 — 2022 年 5 月 9 日](https://aws.amazon.com/cn/blogs/china/aws-week-in-review-may-9-2022/) May.11
+-   大咖专栏 | Programing Language | [实时数据处理中的AWS lambda (python) 性能优化](https://aws.amazon.com/cn/blogs/china/performance-optimization-of-aws-lambda-python-in-real-time-data-processing/) May.12
+-   大咖专栏 | Artificial Intelligence | [带你SSH到Amazon SageMaker 训练实例一探究竟](https://aws.amazon.com/cn/blogs/china/take-you-ssh-to-amazon-sagemaker-training-example-to-find-out/) May.12
+-   大咖专栏 | AWS Big Data | [Kylin 4 集成 Amazon Glue Catalog！](https://aws.amazon.com/cn/blogs/china/kylin-4-integrates-amazon-glue-catalog/) May.13
+-   大咖专栏 | Analytics | [利用QuickSight和AWS serverless服务创建跨账号的支持案例面板](https://aws.amazon.com/cn/blogs/china/create-a-cross-account-support-case-panel-with-quicksight-and-aws-serverless-services/) May.13
+-   全球精选 | Security | [Amazon EC2 现在支持 NitroTPM 和 UEFI 安全启动](https://aws.amazon.com/cn/blogs/china/amazon-ec2-now-supports-nitrotpm-and-uefi-secure-boot/) May.13
+-   大咖专栏 | Artificial Intelligence | [Data-centric AI之特征工程(第一讲)](https://aws.amazon.com/cn/blogs/china/feature-engineering-of-the-final-version-of-data-centric-ai-lecture-1/) May.16
+-   全球精选 | Analytics | [IoT 数据摄入和可视化的 7 种模式 – 如何确定最适合您使用场景的模式](https://aws.amazon.com/cn/blogs/china/7-patterns-for-iot-data-ingestion-and-visualization-how-to-decide-what-works-best-for-your-use-case/) May.16
+-   全球精选 | Analytics | [Amazon Redshift 继续保持在性价比方面的领先地位](https://aws.amazon.com/cn/blogs/china/amazon-redshift-continues-its-price-performance-leadership/) May.16
+-   全球精选 | Analytics | [使用 Amazon Glue、Amazon Neptune 和 Spline 为数据湖构建数据沿袭](https://aws.amazon.com/cn/blogs/china/build-data-lineage-for-data-lakes-using-aws-glue-amazon-neptune-and-spline-html/) May.16
+-   全球精选 | [从 Amazon EMR 和 AWS Glue 访问 Amazon S3 中数据的性能优化最佳实践](https://aws.amazon.com/cn/blogs/china/best-practices-to-optimize-data-access-performance-from-amazon-emr-and-aws-glue-to-amazon-s3/) May.16
+-   全球精选 | Database | [将 Microsoft Azure SQL 数据库迁移到 Amazon Aurora MySQL 兼容版](https://aws.amazon.com/cn/blogs/china/migrate-azuresql-to-aws-aurora/) May.16
+-   全球精选 | Analytics | [Amazon EMR 上 Apache Hudi 0.9.0 提供的新功能](https://aws.amazon.com/cn/blogs/china/new-features-from-apache-hudi-0-9-0-on-amazon-emr/) May.16
+-   全球精选 | Database | [使用多区域 Amazon EKS 和 Amazon Aurora Global Database 扩展应用程序：第 1 部分](https://aws.amazon.com/cn/blogs/china/part-1-scale-applications-using-multi-region-amazon-eks-and-amazon-aurora-global-database/) May.16
+-   全球精选 | Analytics | [将数据仓库迁移到 Amazon Redshift 时的考虑事项](https://aws.amazon.com/cn/blogs/china/what-to-consider-when-migrating-data-warehouse-to-amazon-redshift/) May.16
+-   全球精选 | Database | [Amazon Aurora Serverless v2正式发布：瞬时扩展应对高要求的工作负载](https://aws.amazon.com/cn/blogs/china/amazon-aurora-serverless-v2-is-generally-available-instant-scaling-for-demanding-workloads-2/) May.16
+-   大咖专栏 | Security, Identity, & Compliance | [如何快速构建跨多账号的云CMDB和安全基线检查方案](https://aws.amazon.com/cn/blogs/china/how-to-quickly-build-a-cloud-cmdb-and-security-baseline-inspection-scheme-across-multiple-accounts/) May.17
+-   大咖专栏 | Serverless | [基于AWS Step Functions和Amazon API Gateway的跨账号工作流服务](https://aws.amazon.com/cn/blogs/china/cross-account-workflow-service-based-on-aws-step-functions-and-a-mazon-api-gateway/) May.17
+-   大咖专栏 | Startup | [新一代国产 NewSQL 昆仑数据库的云上探索和压测表现](https://aws.amazon.com/cn/blogs/china/cloud-exploration-and-pressure-test-performance-of-a-new-generation-of-domestic-newsql-kunlun-database/) May.18
+-   最新发布 | [AWS 一周回顾 — 2022 年 5 月 16 日](https://aws.amazon.com/cn/blogs/china/aws-week-in-review-may-16-2022/) May.18
+-   大咖专栏 | Database | [动如脱兔 静若磐石 新一代云原生无服务数据库Aurora Serverless V2重装上阵](https://aws.amazon.com/cn/blogs/china/the-new-generation-of-cloud-native-non-service-database-aurora-serverless-v2-is-reinstalled/) May.18
+-   大咖专栏 | Migration & Transfer Services | [使用Lambda函数URL + CloudFront实现S3镜像回源](https://aws.amazon.com/cn/blogs/china/use-lambda-function-url-cloudfront-to-realize-s3-image-back-to-source/) May.19
+-   大咖专栏 | Database | [条条大路通罗马 —— 使用redis-py访问Amazon ElastiCache for redis集群](https://aws.amazon.com/cn/blogs/china/use-redis-py-to-access-amazon-elasticache-for-redis-cluster/) May.19
+-   大咖专栏 | [亚马逊云科技2022年4月新服务新功能强势来袭](https://aws.amazon.com/cn/blogs/china/new-services-and-features-in-aws-china-in-april/) May.20
+-   大咖专栏 | Database | [好风凭借力 – 使用Babelfish 加速迁移 SQL Server的代码转换实践](https://aws.amazon.com/cn/blogs/china/take-advantage-of-good-wind-code-conversion-practice-of-accelerating-sql-server-migration-with-babelfish/) May.20
+-   大咖专栏 | Artificial Intelligence | [Data-centric AI之特征工程(第二讲)](https://aws.amazon.com/cn/blogs/china/characteristic-engineering-of-data-centric-ai-lecture-2/) May.23
+-   大咖专栏 | Security, Identity, & Compliance | [多云身份管控平台构建——第一篇 基于RBAC&ABAC实现Auth0与亚马逊云控制台的权限集成](https://aws.amazon.com/cn/blogs/china/security-identity-compliance-construction-of-multi-cloud-identity-management-and-control-platform-the-first-article-realizes-the-permission-integration-of-auth0-and-amazon-cloud-console-ba/) May.23
+-   最新发布 | [AWS Backup 现在支持 Amazon FSx for NetApp ONTAP](https://aws.amazon.com/cn/blogs/china/aws-backup-now-supports-amazon-fsx-for-netapp-ontap/) May.23
+-   大咖专栏 | Security, Identity, & Compliance | [多云身份管控平台构建——第二篇 基于动态策略实现Auth0与亚马逊云控制台的权限集成](https://aws.amazon.com/cn/blogs/china/security-identity-compliance-construction-of-multi-cloud-identity-management-and-control-platform-the-second-part-realizes-authority-integration-between-auth0-and-aws-console-based-on-dynamic-poli/)  May.24
+-   大咖专栏 | SAP on AWS | [SAP on Amazon部署必知必会](https://aws.amazon.com/cn/blogs/china/sap-on-amazon-deployment-must-know/) May.24
+-   大咖专栏 | Containers | [Unreal Engine 像素流送在g4dn上实现容器化部署实践(一)](https://aws.amazon.com/cn/blogs/china/practice-of-container-deployment-of-unreal-engine-pixel-streaming-on-g4dn-i/) May.24
+-   大咖专栏 | Compute | [使用 Graviton 2优化Serverless车联网架构](https://aws.amazon.com/cn/blogs/china/optimizing-the-architecture-of-serverless-internet-of-vehicles-with-graviton-2/) May.24
+-   最新发布 | [全新推出 —— 由 AWS Graviton3 处理器赋能的 Amazon EC2 C7g 实例](https://aws.amazon.com/cn/blogs/china/new-amazon-ec2-c7g-instances-powered-by-aws-graviton3-processors/) May.25
+-   大咖专栏 | Internet of Things | [基于AWS和西门子工业边缘的云边协同方案](https://aws.amazon.com/cn/blogs/china/cloud-edge-collaboration-scheme-based-on-aws-and-siemens-industrial-edge/) May.27
+-   大咖专栏 | Containers | [在 Amazon EKS 上使用 k8s Snapshot 备份和恢复 EBS PV 卷](https://aws.amazon.com/cn/blogs/china/backup-and-restore-ebs-pv-volumes-using-k8s-snapshot-on-amazon-eks/) May.27
+-   全球精选 | Storage | [AWS DataSync 的新增功能 — 在 AWS 和 Google Cloud Storage 或 AWS 和 Microsoft Azure 文件之间移动数据](https://aws.amazon.com/cn/blogs/china/new-for-aws-datasync-move-data-between-aws-and-google-cloud-storage-or-aws-and-microsoft-azure-files/) May.30
+-   最新发布 | [新增 — 具有高达 7.6 TB 本地 NVMe 存储的 Amazon EC2 M6id 和 C6id 实例](https://aws.amazon.com/cn/blogs/china/new-amazon-ec2-m6id-and-c6id-instances-with-up-to-7-6-tb-local-nvme-storage/) May.30
+
+## 六月
+
+-   大咖专栏 | Containers | [Unreal Engine 像素流送在g4dn上实现容器化部署实践(二)](https://aws.amazon.com/cn/blogs/china/practice-of-container-deployment-of-unreal-engine-pixel-streaming-on-g4dn-ii/) Jun.1
+-   大咖专栏 | Internet of Things | [快速落地智能云存储摄像机解决方案](https://aws.amazon.com/cn/blogs/china/foundation-of-fast-landing-smart-camera-solution/) Jun.6
+-   大咖专栏 | Artificial Intelligence | [Data-centric AI之特征工程(第三讲)](https://aws.amazon.com/cn/blogs/china/characteristic-engineering-of-data-centric-ai-lecture-3/) Jun.6
+-   最新发布 | [介绍最新的 AWS 大侠 – 2022 年 6 月](https://aws.amazon.com/cn/blogs/china/introducing-the-newest-aws-heroes-june-2022/) Jun.6
+-   大咖专栏 | Storage | [新增功能-通过Amazon EFS Replication实现数据冗余和故障转移](https://aws.amazon.com/cn/blogs/china/whats-new-data-redundancy-and-failover-via-amazon-efs-replication/) Jun.7
+-   大咖专栏 | AWS Big Data | [基于OpenLDAP与Kerberos的Amazon EMR身份认证方案(一)：整合后台数据库](https://aws.amazon.com/cn/blogs/china/amazon-emr-authentication-scheme-based-on-openldap-and-kerberos-i-integrating-background-databases/) Jun.8
+-   大咖专栏 | AWS Big Data | [基于OpenLDAP与Kerberos的Amazon EMR身份认证方案(二)：基于SSSD同步LDAP账号](https://aws.amazon.com/cn/blogs/china/amazon-emr-authentication-scheme-based-on-openldap-and-kerberos-ii-synchronize-ldap-accounts-based-on-sssd/) Jun.8
+-   大咖专栏 | AWS Big Data | [基于OpenLDAP与Kerberos的Amazon EMR身份认证方案(三)：基于SASL/GSSAPI深度集成](https://aws.amazon.com/cn/blogs/china/amazon-emr-authentication-scheme-based-on-openldap-and-kerberos-iii-deep-integration-based-on-sasl-gssapi/) Jun.8
+-   大咖专栏 | Analytics | [Amazon Glue集成Delta Lake构建事务型数据湖上的流式处理](https://aws.amazon.com/cn/blogs/china/amazon-glue-integrates-delta-lake-to-build-streaming-processing-on-transactional-data-lake/) Jun.8
+-   全球精选 | Database | [道琼斯如何一次性迁移其业务关键型数据库并实现现代化以改善效率和成本效益](https://aws.amazon.com/cn/blogs/china/dow-jones-modernized-databases-to-gain-effectiveness-and-cost-benefits/) Jun.8
+-   全球精选 | Enterprise Strategy | [关于从云中获得最大商业价值的最佳实践的对话](https://aws.amazon.com/cn/blogs/china/a-conversation-on-the-best-practices-to-maximize-business-value-from-the-cloud/) Jun.8
+-   大咖专栏 | Database | [条条大路通罗马 —— 使用 go-redis 连接 Amazon ElastiCache for Redis 集群](https://aws.amazon.com/cn/blogs/china/all-roads-lead-to-rome-use-go-redis-to-connect-amazon-elasticache-for-redis-cluster/) Jun.8
+-   全球精选 | [AWS 一周回顾 – 2022 年 6 月 6 日](https://aws.amazon.com/cn/blogs/china/aws-week-in-review-june-6-2022/) Jun.9
+-   大咖专栏 | Database | [Debezium 特性深入介绍](https://aws.amazon.com/cn/blogs/china/debezium-deep-dive/) Jun.10
+-   大咖专栏 | Artificial Intelligence | [Data-centric AI之样本工程](https://aws.amazon.com/cn/blogs/china/sample-project-of-data-centric-ai/) Jun.10
+-   大咖专栏 | Database | [Gartner® 在新报告中认可 Amazon RDS](https://aws.amazon.com/cn/blogs/china/gartner-recognizes-amazon-rds-in-new-report/) Jun.13
+-   大咖专栏 | Analytics | [Kinesis Data Analytics Studio 和Python交互式开发自定义聚合查询](https://aws.amazon.com/cn/blogs/china/kinesis-data-analytics-studio-and-python-interactively-develop-custom-aggregate-queries/) Jun.13
+-   大咖专栏 | Serverless | [人工智能助力复工复产，模版OCR轻松搞定健康码识别](https://aws.amazon.com/cn/blogs/china/artificial-intelligence-helps-return-to-work-and-production-and-template-ocr-can-easily-identify-health-codes/) Jun.14
+-   大咖专栏 | Artificial Intelligence | [基于Amazon Kinesis Video Stream Images构建视频流检测方案的集成与分析](https://aws.amazon.com/cn/blogs/china/integration-and-analysis-of-video-stream-detection-scheme-based-on-amazon-kinesis-video-stream-images/) Jun.14
+-   最新发布 | [实现大型机应用程序现代化并将其部署到云中](https://aws.amazon.com/cn/blogs/china/modernize-your-mainframe-applications-deploy-them-in-the-cloud/) Jun.14
+-   最新发布 | [新增 – Amazon EC2 R6id 实例，具有高达 7.6 TB 的 NVMe 本地实例存储](https://aws.amazon.com/cn/blogs/china/new-amazon-ec2-r6id-instances/) Jun.14
+-   大咖专栏 | Artificial Intelligence | [在Amazon SageMaker上进行XGBoost分布式训练](https://aws.amazon.com/cn/blogs/china/xgboost-distributed-training-on-amazon-sagemaker/) Jun.14
+-   大咖专栏 | Networking & Content Delivery | [CloudFront 跨域问题（CORS ）的几种解决方式](https://aws.amazon.com/cn/blogs/china/several-solutions-to-cloudfront-cross-domain-problem-cors/) Jun.16
+-   最新发布 | [AWS 一周回顾 – 2022 年 5 月 23 日](https://aws.amazon.com/cn/blogs/china/aws-week-in-review-may-27-2022/) Jun.16
+-   最新发布 | [AWS 一周回顾 – 2022 年 6 月 13 日](https://aws.amazon.com/cn/blogs/china/aws-week-in-review-june-13-2022/) Jun.16
+-   大咖专栏 | Artificial Intelligence | [快速落地智能摄像机解决方案（云存储+WebRTC）](https://aws.amazon.com/cn/blogs/china/fast-landing-smart-camera-solution-cloud-storage-webrtc/) Jun.20
+-   大咖专栏 | Architecture | [使用S3作为Maven制品库配合CI/CD流水线实现自动化构建](https://aws.amazon.com/cn/blogs/china/using-s3-as-maven-product-library-and-ci-cd-pipeline-to-realize-automatic-construction/) Jun.21
+-   大咖专栏 | Analytics | [Amazon Redshift UDF实现对比](https://aws.amazon.com/cn/blogs/china/amazon-redshift-udf-implementation-comparison/) Jun.21
+-   大咖专栏 | Analytics | [借助EventBridge及Lambda 实现EMR 自动调整集群大小](https://aws.amazon.com/cn/blogs/china/realize-emr-automatic-cluster-size-adjustment-with-eventbridge-and-lambda/) Jun.22
+-   全球精选 | Analytics | [Amazon EMR Serverless 现全面推出 — 无需管理服务器即可运行大数据应用程序](https://aws.amazon.com/cn/blogs/china/amazon-emr-serverless-now-generally-available-run-big-data-applications-without-managing-servers-2/) Jun.23
+-   全球精选 | Analytics | [使用 Amazon Redshift 构建用于批量和实时分析的大数据 Lambda 架构](https://aws.amazon.com/cn/blogs/china/build-a-big-data-lambda-architecture-for-batch-and-real-time-analytics-using-amazon-redshift/) Jun.23
+-   全球精选 | Database | [在现代数据架构中将 Amazon Redshift RA3 与托管存储结合使用](https://aws.amazon.com/cn/blogs/china/use-amazon-redshift-ra3-with-managed-storage-in-your-modern-data-architecture/) Jun.23
+-   全球精选 | Database | [使用 ElastiCache 和 MemoryDB 解锁 JSON 工作负载](https://aws.amazon.com/cn/blogs/china/unlocking-json-workloads-with-elasticache-and-memorydb/) Jun.23
+-   全球精选 | Database | [利用Amazon SCT评估报告为 Babelfish 迁移做好准备](https://aws.amazon.com/cn/blogs/china/prepare-for-babelfish-migration-with-the-aws-sct-assessment-report/) Jun.23
+-   全球精选 | Database | [优化 Amazon ElastiCache for Redis 和 Amazon MemoryDB for Redis 上的应用程序内存使用情况](https://aws.amazon.com/cn/blogs/china/optimize-application-memory-usage-on-amazon-elasticache-for-redis-and-amazon-memorydb-for-redis/) Jun.23
+-   全球精选 | Database | [从 Oracle 迁移到 PostgreSQL 时空字符串的处理](https://aws.amazon.com/cn/blogs/china/handle-empty-strings-when-migrating-from-oracle-to-postgresql/) Jun.23
+-   大咖专栏 | Artificial Intelligence | [Data-centric AI之数据集质量](https://aws.amazon.com/cn/blogs/china/data-set-quality-of-data-centric-ai/) Jun.27
+-   大咖专栏 | Application Integration | [如何对接亚马逊电商Selling Partner API](https://aws.amazon.com/cn/blogs/china/how-to-connect-with-amazon-e-commerce-selling-partner-api/) Jun.27
+-   大咖专栏 | [创建 SP-API 第三方登录应用并完成 API Call](https://aws.amazon.com/cn/blogs/china/create-sp-api-third-party-login-application-and-complete-api-call/) Jun.27
+-   大咖专栏 | Application Integration | [SP-API 中 Notifications API 结合 Amazon SQS 使用的详细教程](https://aws.amazon.com/cn/blogs/china/detailed-tutorial-on-the-use-of-notifications-api-in-sp-api-with-amazon-sqs/) Jun.27
+-   大咖专栏 | [SP-API 中 Notifications API 结合 Amazon EventBridge 使用的详细教程](https://aws.amazon.com/cn/blogs/china/detailed-tutorial-on-the-use-of-notifications-api-with-amazon-eventbridge-in-sp-api/) Jun.27
+-   最新发布 | [亚马逊云科技2022年5月新服务新功能回顾](https://aws.amazon.com/cn/blogs/china/review-of-new-services-and-functions-of-aws-in-may-2022/)  Jun.27
+-   大咖专栏 | Security, Identity, & Compliance | [在EC2上对SELinux故障进行紧急恢复以及排查的思路及方法](https://aws.amazon.com/cn/blogs/china/ideas-and-methods-for-emergency-recovery-and-troubleshooting-of-selinux-faults-on-ec2/) Jun.29
+-   大咖专栏 | Security, Identity, & Compliance | [通过Keycloak结合OAuth2.0协议进行AWS API Gateway鉴权](https://aws.amazon.com/cn/blogs/china/aws-api-gateway-authentication-through-keyloak-and-oauth2-0-protocol/) Jun.29
+
+## 七月
+
+-   大咖专栏 | Analytics | [使用Hue玩转Amazon EMR(SparkSQL, Phoenix)和Amazon Redshift](https://aws.amazon.com/cn/blogs/china/play-with-amazon-emr-sparksql-phoenix-and-amazon-redshift-with-hue/) Jul.1
+-   大咖专栏 | Analytics | [在 AWS 搭建无代码可视化的数据分析和建模平台](https://aws.amazon.com/cn/blogs/china/build-a-code-free-visual-data-analysis-and-modeling-platform-in-aws/) Jul.4
+-   大咖专栏 | Artificial Intelligence | [推荐系统系列之推荐系统概览（上）](https://aws.amazon.com/cn/blogs/china/recommended-system-overview-of-recommended-system-series-part-1/) Jul.4
+-   大咖专栏 | Serverless | [基于亚马逊云科技无服务器服务快速搭建电商平台——性能篇](https://aws.amazon.com/cn/blogs/china/quickly-build-an-e-commerce-platform-based-on-amazon-cloud-technology-server-free-service-performance/) Jul.4
+-   大咖专栏 | Serverless | [基于亚马逊云科技无服务器服务快速搭建电商平台——部署篇](https://aws.amazon.com/cn/blogs/china/quickly-build-e-commerce-platform-based-on-aws-server-less-deployment/) Jul.4
+-   大咖专栏 | DevOps | [使用Terraform与事件驱动的AWS CodeBuild提升云上数据应用运维效率](https://aws.amazon.com/cn/blogs/china/using-terrain-and-event-driven-aws-codebuild-to-improve-the-operation-and-maintenance-efficiency-of-cloud-data-applications/) Jul.6
+-   大咖专栏 | Analytics | [Amazon EMR Hudi 性能调优——Clustering](https://aws.amazon.com/cn/blogs/china/amazon-emr-hudi-performance-tuning-clustering/)  Jul.6
+-   最新发布 | [AWS 一周回顾 – 2022 年 7 月 4 日](https://aws.amazon.com/cn/blogs/china/aws-week-in-review-july-04-2022/) Jul.6
+-   大咖专栏 | Database | [使用 Amazon MemoryDB for Redis 作为 JuiceFS 的元数据引擎](https://aws.amazon.com/cn/blogs/china/use-amazon-memorydb-for-redis-as-the-metadata-engine-of-juicefs/) Jul.7
+-   最新发布 | [全新 – Amazon EC2 M1 Mac 实例](https://aws.amazon.com/cn/blogs/china/new-amazon-ec2-m1-mac-instances/) Jul.11
+-   大咖专栏 | Database | [条条大路通罗马系列- 使用Hiredis-cluster连接Amazon ElastiCache for Redis集群](https://aws.amazon.com/cn/blogs/china/all-roads-to-rome-series-connect-amazon-elasticache-for-redis-cluster-with-hiredis-cluster/) Jul.11
+-   大咖专栏 | Internet of Things | [使用Amazon ECS Anywhere在边缘部署AWS IoT Greengrass](https://aws.amazon.com/cn/blogs/china/deploy-aws-iot-greenrass-at-the-edge-using-amazon-ecs-anywhere/)   Jul.11
+-   最新发布 | [Amazon Aurora Serverless v2 正式发布：针对要求苛刻的工作负载的即时扩展](https://aws.amazon.com/cn/blogs/china/amazon-aurora-serverless-v2-is-generally-available-instant-scaling-for-demanding-workloads/) Jul.11
+-   大咖专栏 | Database | [在Amazon DocumentDB里处理Decimal128类型数据的解决方案](https://aws.amazon.com/cn/blogs/china/solution-for-processing-decimal128-type-data-in-amazondocumentdb/) Jul.12
+-   大咖专栏 | Analytics | [在Amazon EMR上构建实时数据湖](https://aws.amazon.com/cn/blogs/china/build-a-real-time-data-lake-on-amazon-emr/) Jul.14
+-   最新发布 | [AWS 一周回顾 – 2022 年 7 月 11 日](https://aws.amazon.com/cn/blogs/china/aws-week-in-review-july-11/) Jul.14
+-   最新发布 | [新功能 – Cloud WAN：托管 WAN 服务](https://aws.amazon.com/cn/blogs/china/new-cloud-wan-a-managed-wan-service/) Jul.15
+-   最新发布 | [Amazon Redshift Serverless – 现已正式推出新功能](https://aws.amazon.com/cn/blogs/china/amazon-redshift-serverless-now-generally-available-with-new-capabilities/) Jul.15
+-   大咖专栏 | Compute | [基于Graviton2处理器构建容器化基因分析工作负载](https://aws.amazon.com/cn/blogs/china/construction-of-containerized-gene-analysis-workload-based-on-graviton2-processor/) Jul.18
+-   全球精选 | Database | [在 AWS 上以高可用性模式实现 Microsoft SQL 数据库服务现代化的注意事项](https://aws.amazon.com/cn/blogs/china/considerations-for-modernizing-microsoft-sql-database-service-with-high-availability-on-aws/) Jul.18
+-   全球精选 | Artificial Intelligence | [Mantium 如何在 Amazon SageMaker 上使用 DeepSpeed 实现低延迟 GPT-J 推理](https://aws.amazon.com/cn/blogs/china/how-mantium-achieves-low-latency-gpt-j-inference-with-deepspeed-on-amazon-sagemaker/) Jul.18
+-   全球精选 | Internet of Things | [如何使用 AWS Systems Manager 集中管理 AWS IoT Greengrass 设备](https://aws.amazon.com/cn/blogs/china/how-to-centrally-manage-aws-iot-greengrass-devices-using-aws-systems-manager/) Jul.18
+-   全球精选 | AR & VR | [AWS 上的数字孪生：使用 L3 预测性数字孪生来预测“行为”](https://aws.amazon.com/cn/blogs/china/l3-predictive-digital-twins/) Jul.18
+-   全球精选 | Database | [为您的工作负载选择正确的数据库和数据库迁移计划](https://aws.amazon.com/cn/blogs/china/selecting-the-right-database-and-database-migration-plan-for-your-workloads/) Jul.18
+-   大咖专栏 | Serverless | [基于Amazon API Gatewy的跨账号跨网络的私有API集成](https://aws.amazon.com/cn/blogs/china/private-api-integration-across-accounts-and-networks-based-on-amazon-api-gateway/) Jul.19
+-   大咖专栏 | Database | [利用DynamoDB和S3结合gzip压缩，最大化存储玩家数据](https://aws.amazon.com/cn/blogs/china/dynamodb-and-s3-are-combined-with-gzip-compression-to-maximize-the-storage-of-player-data/) Jul.20
+-   大咖专栏 | Artificial Intelligence | [推荐系统系列之推荐系统概览（下）](https://aws.amazon.com/cn/blogs/china/recommended-system-overview-of-recommended-system-series-part-2/) Jul.20
+-   最新发布 | [AWS 一周回顾 – 2022 年 7 月 18 日](https://aws.amazon.com/cn/blogs/china/aws-week-in-review-july-18-2022/) Jul.21
+-   大咖专栏 | Security, Identity, & Compliance | [EKS上有状态服务启用存储加密](https://aws.amazon.com/cn/blogs/china/enabling-storage-encryption-for-stateful-services-on-eks/) Jul.22
+-   大咖专栏 | Networking & Content Delivery | [利用Amazon API Gateway和AWS Lambda处理Cloudfront的内容请求](https://aws.amazon.com/cn/blogs/china/leverage-amazon-api-gateway-and-aws-lambda-to-process-cloudfront-content-requests/) Jul.22
+-   大咖专栏 | DevOps | [通过自定义域名 + SSL 的方式访问Amazon MQ for RabbitMQ](https://aws.amazon.com/cn/blogs/china/access-amazon-mq-for-rabbitmq-through-custom-domain-name-ssl/) Jul.22
+-   最新发布 | [全新 – Amazon EC2 R6a 实例由第三代 AMD EPYC 处理器提供支持，适用于内存密集型工作负载](https://aws.amazon.com/cn/blogs/china/new-amazon-ec2-r6a-instances-powered-by-3rd-gen-amd-epyc-processors-for-memory-intensive-workloads/) Jul.22
+-   大咖专栏 | DevOps | [基于EKS Fargate 搭建微服务性能分析系统](https://aws.amazon.com/cn/blogs/china/building-a-microservice-performance-analysis-system-based-on-eks-fargate/) Jul.22
+-   全球精选 | Containers | [选择无服务器：Babbel 的迁移故事](https://aws.amazon.com/cn/blogs/china/choosing-serverless-babbels-migration-story/) Jul.26
+-   最新发布 | [我们如何将 AWS Snowcone 送入轨道](https://aws.amazon.com/cn/blogs/china/how-we-sent-an-aws-snowcone-into-orbit/) Jul.26
+-   大咖专栏 | Artificial Intelligence | [从软件哲学角度谈Amazon SageMaker](https://aws.amazon.com/cn/blogs/china/on-amazon-sagemaker-from-the-perspective-of-software-philosophy/) Jul.26
+-   全球精选 | Database | [在 Amazon Athena 中使用 EXPLAIN 和 EXPLAIN ANALYZE 优化联合查询性能](https://aws.amazon.com/cn/blogs/china/optimize-federated-query-performance-using-explain-and-explain-analyze-in-amazon-athena/) Jul.26
+-   全球精选 | Database | [对数据库中存储的程序进行现代化改造，以使用 Amazon Aurora PostgreSQL 联合查询、pg\_cron 和 AWS Lambda](https://aws.amazon.com/cn/blogs/china/modernize-database-stored-procedures-to-use-amazon-aurora-postgresql-federated-queries-pg_cron-and-aws-lambda/)  Jul.26
+-   全球精选 | Analytics | [使用 Amazon Athena、Amazon EMR 和 AWS Glue 构建 Apache Iceberg 数据湖](https://aws.amazon.com/cn/blogs/china/build-an-apache-iceberg-data-lake-using-amazon-athena-amazon-emr-and-aws-glue/) Jul.26
+-   大咖专栏 | Artificial Intelligence | [基于Amazon SageMaker构建细粒度情感分析应用](https://aws.amazon.com/cn/blogs/china/building-fine-grained-sentiment-analysis-applications-based-on-amazon-sagemaker/) Jul.26
+-   大咖专栏 | Artificial Intelligence | [使用Amazon SageMaker构建文本摘要应用](https://aws.amazon.com/cn/blogs/china/building-text-summarization-apps-with-amazon-sagemaker/) Jul.26
+-   大咖专栏 | Analytics | [使用 AWS Step Functions 和 Amazon Athena 实现简易大数据编排](https://aws.amazon.com/cn/blogs/china/simple-big-data-with-step-functions-and-athena/) Jul.26
+-   大咖专栏 | Integration & Automation | [AWS中国区配置PingIdentity身份集成实现Redshift数据库群集单点登录](https://aws.amazon.com/cn/blogs/china/configure-pingidentity-identity-integration-in-aws-china-to-implement-redshift-database-cluster-single-sign-on/) Jul.27
+-   大咖专栏 | DevOps | [Codepipeline跨账号访问Codecommit](https://aws.amazon.com/cn/blogs/china/codepipeline-cross-account-access-to-codecommit/) Jul.27
+-   最新发布 | [2022 年亚马逊 Prime 会员日 – AWS 大胜！](https://aws.amazon.com/cn/blogs/china/amazon-prime-day-2022-aws-for-the-win/) Jul.27
+-   大咖专栏 | Analytics | [多库多表场景下使用Amazon EMR CDC实时入湖最佳实践](https://aws.amazon.com/cn/blogs/china/best-practice-of-using-amazon-emr-cdc-to-enter-the-lake-in-real-time-in-a-multi-database-multi-table-scenario/) Jul.28
+-   大咖专栏 | Containers | [基于Nginx&Lua实现自建服务端埋点系统](https://aws.amazon.com/cn/blogs/china/realization-of-self-built-server-side-embedded-point-system-based-on-nginxlua/) Jul.28
+-   大咖专栏 | Serverless | [使用 Lambda Web Adapter在Lambda上 构建 web应用](https://aws.amazon.com/cn/blogs/china/building-web-applications-on-lambda-using-the-lambda-web-adapter/) Jul.28
+-   大咖专栏 | AWS Big Data | [Feast on AWS 解决方案](https://aws.amazon.com/cn/blogs/china/feast-on-aws-solutions/)  Jul.29
+-   大咖专栏 | AWS Big Data | [使用Alluxio优化EMR上Flink Join](https://aws.amazon.com/cn/blogs/china/optimizing-flink-join-on-emr-with-alluxio/)  Jul.29
+-   大咖专栏 | AWS Big Data | [Alluxio on Amazon EMR 集成实践](https://aws.amazon.com/cn/blogs/china/alluxio-on-amazon-emr-integration-practice/) Jul.29
+
+## 八月
+
+-   大咖专栏 | Analytics | [通过 AWS Managed Microsoft Active Directory 运行混合 Active Directory 服务](https://aws.amazon.com/cn/blogs/china/running-hybrid-active-directory-service-with-aws-managed-microsoft-active-directory/) Aug.1
+-   大咖专栏 | Artificial Intelligence | [如何针对多租户 SaaS 使用案例扩展机器学习推理](https://aws.amazon.com/cn/blogs/china/how-to-scale-machine-learning-inference-for-multi-tenant-saas-use-cases/) Aug.1
+-   全球精选 | Blockchain | [利用 Amazon Managed Blockchain 发展和扩大忠诚度奖励计划（第一部分）](https://aws.amazon.com/cn/blogs/china/grow-and-expand-loyalty-reward-programs-with-amazon-managed-blockchain-part-one/) Aug.1
+-   大咖专栏 | Database | [条条大路通罗马 – 如何在.NET程序中使用StackExchange.Redis操作Amazon ElastiCache for Redis](https://aws.amazon.com/cn/blogs/china/all-roads-lead-to-rome-how-to-use-stackexchange-redis-to-operate-amazon-elasticache-for-redis-in-net-program/) Aug.1
+-   大咖专栏 | Database | [利用ChangeStream实现Amazon DocumentDB表级别容灾复制](https://aws.amazon.com/cn/blogs/china/using-changestream-to-implement-amazon-documentdb-table-level-disaster-recovery-replication/) Aug.1
+-   大咖专栏 | Database | [使用Athena (Presto) 分析本地 Oracle 数据库导出的数据](https://aws.amazon.com/cn/blogs/china/use-athena-presto-to-analyze-data-exported-from-a-local-oracle-database/) Aug.1
+-   最新发布 | [Amazon Detective 支持 Amazon EKS 上的 Kubernetes 工作负载以进行安全调查](https://aws.amazon.com/cn/blogs/china/amazon-detective-supports-kubernetes-workloads-on-amazon-eks-for-security-investigations/) Aug.2
+-   最新发布 | [AWS Global Accelerator 的新增功能 — 互联网协议版本 6（IPv6）支持](https://aws.amazon.com/cn/blogs/china/new-for-aws-global-accelerator-internet-protocol-version-6-ipv6-support/) Aug.2
+-   最新发布 | [Amazon GuardDuty 的新增功能 – Amazon EBS 卷的恶意软件检测](https://aws.amazon.com/cn/blogs/china/new-for-amazon-guardduty-malware-detection-for-amazon-ebs-volumes/) Aug.2
+-   大咖专栏 | Artificial Intelligence | [金融交易行为监测方法——利用 CNN模型实现行为识别](https://aws.amazon.com/cn/blogs/china/financial-transaction-behavior-monitoring-method-using-cnn-model-to-realize-behavior-recognition/)   Aug.2
+-   大咖专栏 | Management Tools | [使用Pulumi打造自己的多云管理平台](https://aws.amazon.com/cn/blogs/china/build-your-own-multi-cloud-management-platform-with-pulumi/) Aug.2
+-   大咖专栏 | Storage | [跨 AWS 账号复制加密的 S3 对象](https://aws.amazon.com/cn/blogs/china/replicating-encrypted-s3-objects-across-aws-accounts/) Aug.3
+-   最新发布 | [AWS 一周回顾 – 2022 年 8 月 1 日](https://aws.amazon.com/cn/blogs/china/aws-week-in-review-august-1-2022/) Aug.3
+-   最新发布 | [新增 – 使用基于用户的许可证模式在 Amazon EC2 上运行 Visual Studio 软件](https://aws.amazon.com/cn/blogs/china/new-run-visual-studio-software-on-amazon-ec2-with-user-based-license-model/) Aug.4
+-   最新发布 | [全新 – AWS Skill Builder 订阅](https://aws.amazon.com/cn/blogs/china/new-aws-skill-builder-subscriptions/) Aug.4
+-   大咖专栏 | Migration & Transfer Services| [亚马逊云科技标签策略中国区替代方案](https://aws.amazon.com/cn/blogs/china/amazon-cloud-technology-labeling-strategy-china-alternatives/) Aug.5
+-   最新发布 | [Graviton 快速启动 – 帮助您将工作负载迁移到 AWS Graviton 的全新计划](https://aws.amazon.com/cn/blogs/china/graviton-fast-start-a-new-program-to-help-move-your-workloads-to-aws-graviton/) Aug.5
+-   大咖专栏 | Artificial Intelligence | [推荐系统系列之推荐系统召回阶段的深入探讨](https://aws.amazon.com/cn/blogs/china/in-depth-discussion-on-the-recall-stage-of-recommendation-system-of-recommendation-system-series/) Aug.5
+-   大咖专栏 | Compute | [AWS ParallelCluster 3集成ANSYS CFD计算](https://aws.amazon.com/cn/blogs/china/aws-parallelcluster-3-integrated-ansys-cfd-calculation/) Aug.8
+-   大咖专栏 | AWS Big Data | [一种使用 AWS 云原生服务部署高可用 APACHE AIRFLOW 集群的方案](https://aws.amazon.com/cn/blogs/china/a-scheme-to-deploy-a-highly-available-apache-airflow-cluster-using-aws-cloud-native-services/) 
+-   大咖专栏 | DevOps | [基于Seedfarmer的云资源编排](https://aws.amazon.com/cn/blogs/china/cloud-resource-orchestration-based-on-seedfarmer/) Aug.10
+-   大咖专栏 | Security, Identity, & Compliance | [借助AWS Secrets Manager管理特权凭证](https://aws.amazon.com/cn/blogs/china/manage-privileged-credentials-with-aws-secrets-manager/) Aug.10
+-   全球精选 | Artificial Intelligence | [通过 Amazon SageMaker 在慕尼黑白血病实验室进行机器学习白血病诊断](https://aws.amazon.com/cn/blogs/china/machine-learning-leukemia-diagnosis-at-munich-leukemia-lab-with-amazon-sagemaker/) Aug.11
+-   全球精选 | Academic medical centers | [通过 Amazon Connect 与医生轻松沟通并简化患者的计费](https://aws.amazon.com/cn/blogs/china/provide-easy-communication-with-doctors-and-streamline-billing-for-patients-with-amazon-connect/) Aug.11
+-   全球精选 | Artificial Intelligence | [Wellforce 宣布将卫生系统的数字医疗保健生态系统迁移到 AWS](https://aws.amazon.com/cn/blogs/china/wellforce-announces-migration-health-systems-digital-healthcare-ecosystem-aws/) Aug.11
+-   大咖专栏 | Integration & Automation | [中国区CloudWatch Dashboard跨区域集成指标](https://aws.amazon.com/cn/blogs/china/cloudwatch-dashboard-cross-region-integration-metrics-in-china/) Aug.15
+-   最新发布 | [新功能 — 借助 Amazon DevOps Guru 中的日志异常检测和建议功能，快速检测和解决问题](https://aws.amazon.com/cn/blogs/china/new-detect-and-resolve-issues-quickly-with-log-anomaly-detection-and-recommendations-from-amazon-devops-guru/) Aug.15
+-   最新发布 | [全新 — AWS Private 5G 构建您自己的专用移动网络](https://aws.amazon.com/cn/blogs/china/new-aws-private-5g-build-your-own-private-mobile-network/) Aug.15
+-   大咖专栏 | Migration & Transfer Services | [基于AWS DataSync 迁移 NetApp NAS上云](https://aws.amazon.com/cn/blogs/china/migrating-netapp-nas-to-cloud-based-on-aws-datasync/) Aug.15
+-   大咖专栏 | Containers | [深入浅出的谈谈Amazon EKS的身份认证处理](https://aws.amazon.com/cn/blogs/china/talk-about-aws-eks-identity-authentication-processing-in-simple-terms/) Aug.15
+-   大咖专栏 | Database | [居安思危 – Amazon Aurora 故障恢复之降低DNS切换对应用影响篇](https://aws.amazon.com/cn/blogs/china/be-vigilant-in-times-of-peace-amazon-aurora-fault-recovery-reduces-the-impact-of-dns-switching-on-applications/) Aug.16
+-   最新发布 | [十年间 Amazon EBS 预调配 IOPS 的持续发展](https://aws.amazon.com/cn/blogs/china/a-decade-of-ever-increasing-provisioned-iops-for-amazon-ebs/) Aug.17
+-   最新发布 | [新增功能 – Amazon CloudFront 支持 HTTP/3](https://aws.amazon.com/cn/blogs/china/new-http-3-support-for-amazon-cloudfront/) Aug.17
+-   最新发布 | [Grillo 如何在 AWS 上构建低成本地震预警系统](https://aws.amazon.com/cn/blogs/china/how-grillo-built-a-low-cost-earthquake-early-warning-system-on-aws/) Aug.18
+-   大咖专栏 | AWS Big Data | [机器学习多步时间序列预测解决方案](https://aws.amazon.com/cn/blogs/china/machine-learning-multi-step-time-series-prediction-solution/) Aug.18
+-   大咖专栏 | Containers | [中国区通过CDK安装EKS Helm Chart 常见错误及解决方案](https://aws.amazon.com/cn/blogs/china/common-errors-and-solutions-of-installing-eks-helm-chart-through-cdk-in-china/) Aug.19
+
+## 亚马逊 AWS 历年博客回顾：
+
+### [2016年-2020年](https://aws.amazon.com/cn/blogs/china/old/)
+
+### [2021年](https://aws.amazon.com/cn/blogs/china/all/)
